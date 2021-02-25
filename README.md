@@ -6,7 +6,7 @@ This is a repository to host programming assignments and exercises of the course
 ```
 1092_EE3031_Computer-Programming
 ├── homework
-│   ├── hw[**1**].md
+│   ├── hw"1".md
 │   ├── hw`1`.exe
 │   ├── ...
 │   ├── hw`n`.md
