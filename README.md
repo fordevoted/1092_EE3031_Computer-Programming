@@ -5,18 +5,18 @@ This is a repository to host programming assignments and exercises of the course
 ## Repository Structure
 ```
 1092_EE3031_Computer-Programming
+├── course material
+│   └── ...
+├── exercise
+│   ├── week`1`.md
+│   ├── ...
+│   └── week`n`.md
 ├── homework
 │   ├── hw`1`.md
 │   ├── hw`1`.exe
 │   ├── ...
 │   ├── hw`n`.md
 │   └── hw`n`.exe
-├── exercise
-│   ├── week`1`.md
-│   ├── ...
-│   └── week`n`.md
-├── course material
-│   └── ...
 └── README.md
 
 ``` 
