@@ -2,6 +2,10 @@
 
 This is a repository to host programming assignments and exercises of the course [Computer Programming](https://cool.ntu.edu.tw/courses/4605/modules) at National Taiwan University.
 
+## Course preparation
+
+Download [Xmind](https://www.xmind.net/), a full-featured mind mapping and brainstorming tool, designed to generate ideas, inspire creativity, brings efficiency both in work and life.
+
 ## Repository Structure
 ```
 1092_EE3031_Computer-Programming
