@@ -40,7 +40,7 @@
      style="float: left; margin-right: 10px;" /> </br>
 </p>    
 <h1>
-   3. 阿我VCS裝完也能Debug惹，但是VSC的Terminal好醜，</br>
+   3. 阿我VSC裝完也能Debug惹，但是VSC的Terminal好醜，</br>
    而且為啥我用Console.ReadLine()函數，它就是不會讀我的input阿阿</br>
    ◢▆▅▄▃ 崩╰(〒皿〒)╯潰 ▃▄▅▆◣
 </h1>
