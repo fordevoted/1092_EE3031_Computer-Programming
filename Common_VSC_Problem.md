@@ -22,22 +22,17 @@
    若你有安裝.NET且有將其加入預設的PATH(照理來說windows安裝完會自動幫你加入...?)</br>
    它會出現你dotnet binary的安裝位置</br>
    例如：</br>
-   <img src="https://github.com/giginepuran/ntu_EE3031_TA_course_data/blob/main/pic/week1/whereis_dotnet.png"
+   <img src="https://imgur.com/b4koOZ0.jpg"
      alt="Where is dotnet?"
      style="float: left; margin-right: 10px;" /> </br>
-   代表我的dotnet指令為： 令電腦執行 裝在/home/clay00303/dotnet/資料夾下 的dotnet檔案</br>
+   代表我的dotnet指令為： 令電腦執行 裝在/home/user/dotnet/資料夾下 的dotnet檔案</br>
    接著打開你VSC profile中的.vscode/tasks.json檔案 </br>
-   <img src="https://imgur.com/L5fxhXW.jpg"
-     alt="find tasks.json"
-     style="float: left; margin-right: 10px;" /> </br>
-   將上圖中的"/home/clay00303/dotnet/"路徑加入tasks.json中"三個"dotnet指令中，</br>
-   <img src="https://imgur.com/FRH68kI.jpg"
+   將上圖中的"/home/user/dotnet/"路徑加入tasks.json中"三個</br>
+   "command":"dotnet"，</br>
+   <img src="https://imgur.com/XAzHvRF.jpg"
      alt="find tasks.json"
      style="float: left; margin-right: 10px;" /> </br>
    Ctrl + S 儲存tasks.json的變更後，應該就能build跟debeg惹！ YA~</br>
-   <img src="https://imgur.com/HvjlK8N.jpg"
-     alt="succeed build!"
-     style="float: left; margin-right: 10px;" /> </br>
 </p>    
 <h1>
    3. 阿我VSC裝完也能Debug惹，但是VSC的Terminal好醜，</br>
@@ -48,8 +43,8 @@
    據老師陳述：VSC的Terminal，不只PATH的預設怪怪der，好像連讀input隴美叮噹= =
    所以前助教的安裝教學中，有請用VSC的同學，把專案的執行/Debug設定在VSC外的terminal。
    方法如下：
-   一樣，在你的專案profile中 打開.vscode/launch.json檔案
-   <img src="https://imgur.com/FUYsmaK.jpg"
+   一樣，在你的專案profile中 打開.vscode/launch.json檔案</br>
+   <img src="https://imgur.com/KzH5Feb.jpg"
      alt="find launch.json"
      style="float: left; margin-right: 10px;" /> </br>
      
@@ -58,7 +53,7 @@
    改成
    "console": "externalTerminal"  
    接著儲存變更。就可以用外部Terminal Debug惹～～～灑花～～～～
-   <img src="https://imgur.com/7OuhCK9.jpg"
+   <img src="https://imgur.com/cRe3X6l.jpg"
      alt="succeed externalTerm"
      style="float: left; margin-right: 10px;" /> </br>
 </p>   
@@ -68,23 +63,22 @@
    (／‵Д′)／~ ╧╧ (((ﾟДﾟ;)))</br>
 </h1>
    問題如下圖： </br>
-   <img src="https://imgur.com/BUIGHVA.jpg"
+   <img src="https://imgur.com/RGFomYU.jpg"
      alt="multi_term_error"
      style="float: left; margin-right: 10px;" /> </br>
-   這個問題齁，我也不知道那A安捏。</br>
-   不過測試的結果為，若你有自己裝其他的Terminal emulator(例如 tmux/terminator)</br>
+   測試的結果為，若你有自己裝其他的Terminal emulator(例如 tmux/terminator)</br>
    在你額外開一個Terminal的情況下進行Debug，它就不會有輸出。</br>
    請你去VSC的Preferences下的setting(可以由Ctrl + , 進入setting)</br>
-   <img src="https://imgur.com/WCyJAB2.jpg"
+   <img src="https://imgur.com/H4kvWUn.jpg"
      alt="go to setting"
      style="float: left; margin-right: 10px;" /> </br>
-   搜尋Terminal相關設定，找到這一欄</br>
-   <img src="https://imgur.com/IeSsqiN.jpg"
+   搜尋Terminal相關設定，找到這一欄 Terminal > External</br>
+   <img src="https://imgur.com/haboeAG.jpg"
     alt="search terminal in setting"
     style="float: left; margin-right: 10px;" /> </br>
    根據你自己的作業系統，把它改成預設Terminal emulator，</br>
-   就可以在開一堆Terminal時開心？的Debug鑼～～～～</br>
-   <img src="https://imgur.com/c58I9H5.jpg"
+   就可以在開一堆Terminal時開心？的Debug惹～～～～</br>
+   <img src="https://imgur.com/hZUc4gH"
     alt="term error fixed"
     style="float: left; margin-right: 10px;" /> </br>
 
