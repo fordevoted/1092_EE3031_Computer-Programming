@@ -78,7 +78,7 @@
     style="float: left; margin-right: 10px;" /> </br>
    根據你自己的作業系統，把它改成預設Terminal emulator，</br>
    就可以在開一堆Terminal時開心？的Debug惹～～～～</br>
-   <img src="https://imgur.com/hZUc4gH"
+   <img src="https://imgur.com/hZUc4gH.jpg"
     alt="term error fixed"
     style="float: left; margin-right: 10px;" /> </br>
 
