@@ -8,7 +8,7 @@ Notice:<br/>
    1. print_color & readkey (Difficulty:Medium)
 </h2>
 <p>
-   [點此下載範例執行檔](https://drive.google.com/file/d/1mQQMmVnSCQWTWkBLT2FxU3hboqHWa-2a/view?usp=sharing)<br/>
+   <a href="https://drive.google.com/file/d/1mQQMmVnSCQWTWkBLT2FxU3hboqHWa-2a/view?usp=sharing">點此下載範例執行檔</a></br>
    第一題print_color & readkey的程式，<br/>
    可以在用老師教得Console.ReadLine()讀取input後<br/>
    用"有顏色的文字"提醒使用者，它輸入的資料已經被儲存。<br/>
@@ -22,7 +22,7 @@ Notice:<br/>
 2. beep music (Difficulty:Hard)<br/>
 </h2>
 <p>
-   [點此下載範例執行檔](https://drive.google.com/file/d/1CkXl9tfTGOt_1rtBHNNdbUyz8F2d3hIC/view?usp=sharing)<br/>
+   <a href="https://drive.google.com/file/d/1CkXl9tfTGOt_1rtBHNNdbUyz8F2d3hIC/view?usp=sharing">點此下載範例執行檔</a></br>
    第二題的beep music是利用電腦的逼逼聲來演奏音樂的程式。<br/>
    立意為希望同學嘗試去google C# document<br/>
    自學些老師課堂上沒教的函式，語法。<br/>
