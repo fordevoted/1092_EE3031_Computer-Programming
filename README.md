@@ -27,10 +27,10 @@ Download [Xmind](https://www.xmind.net/), a full-featured mind mapping and brain
 
 ## Contact
 TA: 
-陳昱瑋 (r09942066@ntu.edu.tw)
-龔柏森 (r08942132@ntu.edu.tw)
-陳麒宇 (r07943034@ntu.edu.tw)
-戴胤 (r09941007@ntu.edu.tw)
+[陳昱瑋](https://www.facebook.com/profile.php?id=100002787313855) (r09942066@ntu.edu.tw)
+[龔柏森](https://www.facebook.com/GongBoSen) (r08942132@ntu.edu.tw)
+[陳麒宇](https://www.facebook.com/profile.php?id=100001955102682) (r07943034@ntu.edu.tw)
+[戴胤](https://www.facebook.com/profile.php?id=100021666273355) (r09941007@ntu.edu.tw)
 
 For questions, you are encouraged to open an [issue](https://github.com/fordevoted/1092_EE3031_Computer-Programming/issues).
 As other students might have the same questions, discussing in an issue will benefit everyone.
