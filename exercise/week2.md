@@ -5,11 +5,12 @@ Please declare 5 variables, include
 
 | index | Name | Data type | Value |
 | -------- | -------- | -------- | ------- |
-| 1.|	Senior student string|	String|	senior student|
-|2.|	Junior student string|	String| 	junior student|
-|3.|	My grade|	int|	<your grade>|
-|4.|	My target GPA of this semester| 	decimal|	4.3|
-|5.|	Is senior student|	boolean|	true if <your grade> higher than 2, else false.|
+| 1.| Senior student string|	String|	senior student|
+|2.| Junior student string|	String| junior student|
+|3.| My grade| int| <your grade>|
+|4.| My target GPA of this semester| decimal| 4.3|
+|5.| Is senior student| boolean| true if <your grade> higher than 2, else false.|
+
 Utilize these 5 variable to write a program that can print out the following message
 “I am senior student at NTU, and my target GPA of this semester is 4.3.”
 If your grade is higher than 2, otherwise, print out message
