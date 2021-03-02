@@ -36,7 +36,7 @@
    <img src="https://imgur.com/xDrZSBe.jpg"
      alt="find tasks.json"
      style="float: left; margin-right: 10px;" /> </br>
-   Ctrl + S 儲存tasks.json的變更後，應該就能build跟debeg了</br>
+   Ctrl + S 儲存tasks.json的變更後，應該就能build了</br>
 </p>    
 <h1>
    3. 我VSC裝完也能Debug了，但是我想用外部Terminal，</br>
