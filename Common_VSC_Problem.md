@@ -9,7 +9,7 @@
    https://drive.google.com/file/d/1Jjr0JxH4CNsCYAuoPAzxG-KTCzPN5mD7/view?usp=sharing</br>
 </p>
 <h1>
-   2. 阿我VSC裝完了，也照著講義用Termianl建立一個專案了。</br>
+   2. 我VSC裝完了，也照著講義用Termianl建立一個專案了。</br>
    VSC還是跟我講錯誤，不能build</h1>
 <p>   
    如果你VSC在build專案時，於它內建的Terminal顯示以下錯誤訊息</br>
@@ -86,6 +86,7 @@
 >   不過IDE設定遇到問題，完全不代表不適合學寫程式。</br>
 >   硬要扯的話，只有老師所提到的：</br>
 >   希望在這堂課培養同學自學的能力</br>
-   有相關，祝同學學業順利。
+>   有相關。</br>
+>   祝同學學業順利。
 
    
