@@ -17,8 +17,7 @@
    這是代表了你的VSC Terminal並不知道dotnet是什麼意思（或稱，它不知道你的dotnet裝在哪裡）</br>
    請確認dotnet已經安裝完畢，並且重開VSC，再重新測試。</br>
    </br>
-   若仍顯示
-   請打開你們電腦的Terminal,</br>
+   若仍顯示錯誤請打開你們電腦的Terminal,</br>
    mac/windows 輸入： where dotnet</br>
    linux 輸入： whereis dotnet</br>
    它會出現你dotnet binary的安裝位置</br>
