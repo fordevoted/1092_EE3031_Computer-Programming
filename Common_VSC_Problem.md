@@ -12,10 +12,12 @@
    2. 我VSC裝完了，也照著講義用Termianl建立一個專案了。</br>
    VSC還是跟我講錯誤，不能build</h1>
 <p>   
-   如果你VSC在build專案時，於它內建的Terminal顯示以下錯誤訊息</br>
+   如果你VSC在build專案時，於VSC的Terminal顯示以下錯誤訊息</br>
    The terminal process failed to launch: Path to shell executable "dotnet" is not a file of a symlink.</br>
    這是代表了你的VSC Terminal並不知道dotnet是什麼意思（或稱，它不知道你的dotnet裝在哪裡）</br>
-   請打開你們電腦的Terminal(不是VSC內建的),</br>
+   請確認dotnet已經安裝完畢，並且重開VSC。
+   
+   請打開你們電腦的Terminal,</br>
    mac/windows 輸入： where dotnet</br>
    linux 輸入： whereis dotnet</br>
    若你有安裝.NET且有將其加入預設的PATH</br>
