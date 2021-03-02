@@ -6,7 +6,7 @@
    請參考老師的講義：</br>
    https://cool.ntu.edu.tw/courses/4605/files/563742?module_item_id=168414</br>
    或前助教的講義(step-by-step)：</br>
-   https://drive.google.com/file/d/1Jjr0JxH4CNsCYAuoPAzxG-KTCzPN5mD7/view?usp=sharing</br>
+   https://github.com/fordevoted/1092_EE3031_Computer-Programming/blob/main/course%20material/MAC_VS_Code_Installation.pdf</br>
 </p>
 <h1>
    2. 我VSC裝完了，也照著講義用Termianl建立一個專案了。</br>
