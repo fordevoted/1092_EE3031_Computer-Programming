@@ -27,11 +27,11 @@
    代表我的dotnet指令為： 令電腦執行 裝在/user/bin/資料夾下 的dotnet檔案</br>
    接著打開你VSC profile中的.vscode/tasks.json檔案 </br>
    將上圖中的"/user/bin/"路徑加入tasks.json中"三個</br>
-   "command":"dotnet"，</br>
+   修改前，</br>
    <img src="https://imgur.com/ulm8tSr.jpg"
      alt="find tasks.json"
      style="float: left; margin-right: 10px;" /> </br>
-   "command":"dotnet"，</br>
+   修改後，</br>
    <img src="https://imgur.com/xDrZSBe.jpg"
      alt="find tasks.json"
      style="float: left; margin-right: 10px;" /> </br>
