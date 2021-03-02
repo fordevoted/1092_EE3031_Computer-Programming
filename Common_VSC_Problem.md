@@ -59,7 +59,6 @@
 4. 我123都照著做了，也有跳出一個Terminal了。</br>
    Terminal裡面還是沒有output, 但VSC也沒有顯示錯誤訊息。</br>
 </h1>
-   問題如下圖： </br>
    測試的結果為，若你有自己裝其他的Terminal emulator(例如 tmux/terminator)</br>
    在你額外開一個Terminal的情況下進行Debug，它就不會有輸出。</br>
    請你去VSC的Preferences下的setting(可以由Ctrl + , 進入setting)</br>
