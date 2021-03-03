@@ -34,6 +34,8 @@ I am junior student at NTU, and my target GPA of this semester is 4.3.
 C:\Users\user\Desktop\Csharp>dotnet run
 I am senior student at NTU, and my target GPA of this semester is 4.3.
 ```
+#### Hint
+1. You may need to use if-else clause.
 
 ## Medium
 #### Question:
@@ -114,6 +116,12 @@ temperature of Celsius:amIAJokeToYou?
 
 Something wrong, please check.
 ```
+#### Hint 
+1. You need to know the keyword `const`.
+2. Notice the return variable datatype using `Console.ReadLine()`.
+3. You might need to know what is escape character.
+4. Notice the return type of Main function.
+5. You need to know if-else clause.
 
 ## Hard
 #### Question:
@@ -140,4 +148,10 @@ Input formula:
 7/8
 0.875
 ```
+
+#### Hint 
+1. You need to know the relationship between character and string
+2. Notice input number should be lower than 10.
+3. You should know different between double, float and decimal.
+4. You need to know if-else clause.
 
