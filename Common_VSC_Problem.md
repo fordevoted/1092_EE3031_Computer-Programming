@@ -30,7 +30,9 @@
    把</br>
    "console": "internalConsole" </br>
    改成</br>
-   "console": "externalTerminal" or "console": "integratedTerminal"</br>
+   "console": "externalTerminal"</br>
+   或是</br>
+   "console": "integratedTerminal"</br>
    接著儲存變更。就可以用Terminal Debug了</br>
    <img src="https://imgur.com/A9jYPvj.jpg"
      alt="find launch.json"
