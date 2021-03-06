@@ -96,7 +96,7 @@
    把以下連結中的{}內容全部複製過去我們的setting.json的{}中,</br>
    https://github.com/fordevoted/1092_EE3031_Computer-Programming/blob/main/course%20material/settings.json</br>
    往後新建專案應該就不用等他建.vscode,</br>
-   也不用一直改"console":"integratefTerminal"/</br>
+   也不用一直改"console":"integratefTerminal"了</br>
    NOTE1:</br>
    這個檔案只包含了原本在.vscode資料夾下, launch.json及tasks.json的內容, </br>
    直接覆蓋原檔的話, 你的額外設定(ex:theme, 非內建terminal direction)會跑掉.</br>
