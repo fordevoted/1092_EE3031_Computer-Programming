@@ -93,20 +93,20 @@
    從路徑 C:\Users\user\AppData\Roaming\Code\User\ </br>
    就可以找到並打開我們的vscode的setting.json</br>
    </br>
-   把以下連結中的{}內容全部複製過去我們的setting.json的{}中,
+   把以下連結中的{}內容全部複製過去我們的setting.json的{}中,</br>
    https://github.com/fordevoted/1092_EE3031_Computer-Programming/blob/main/course%20material/settings.json</br>
    往後新建專案應該就不用等他建.vscode,</br>
    也不用一直改"console":"integratefTerminal"了/<br>
    </br>
    NOTE1:</br>
    這個檔案只包含了原本在.vscode資料夾下, launch.json及tasks.json的內容, </br>
-   直接覆蓋原檔的話, 你的額外設定(ex:theme, 外部terminal位置)會跑掉.</br>
+   直接覆蓋原檔的話, 你的額外設定(ex:theme, 非內建terminal direction)會跑掉.</br>
    NOTE2:</br>
    這個檔案目前只適用於:名稱"不包含斜線(/)"的console專案, 請藥使用的同學注意專案的命名.</br>
    NOTE3:</br>
    若在嘗試的過程出了問題, 直接把setting.json內容全刪, 改回{}即可.</br>
    NOTE4:</br>
-   有興趣自建環境的同學可以參考:</br>
+   有興趣自己調整環境的同學可以參考:</br>
    VSC syntax_variable:https://code.visualstudio.com/docs/editor/variables-reference </br>
    VSC debugger:https://github.com/microsoft/vscode-docs/blob/vnext/docs/editor/debugging.md#global-launch-configuration </br>
 </p>
