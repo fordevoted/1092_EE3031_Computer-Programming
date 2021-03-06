@@ -18,20 +18,20 @@
    請確認dotnet已經安裝完畢，且有將dotnet加入系統環境變數中，並且重開VSC，再重新測試。</br>
 </p>    
 <h1>
-   3. 我VSC裝完也能Debug了，但是我想用外部Terminal，</br>
-   而且我用Console.ReadLine()函數，VSC的Terminal不會讀我的input</br>
+   3. (必要)</br>
+      使用Console.ReadLine()函數，VSC的Terminal無法讀input</br>
 </h1>
 <p>
    C# extension的debugger-launchjson.md有寫到</br>
    "internalConsole" does **NOT** work for applications that want to read from the console.</br>
-   所以前助教的安裝教學中，有請用VSC的同學，把專案的執行/Debug設定在VSC外的terminal。
+   所以前助教的安裝教學中，有請用VSC的同學，把專案的執行/Debug設定為terminal。
    方法如下：</br>
    在你的專案profile中 打開.vscode/launch.json檔案</br>  
-   把
-   "console": "internalConsole" 
-   改成
-   "console": "externalTerminal"  </br>
-   接著儲存變更。就可以用外部Terminal Debug了</br>
+   把</br>
+   "console": "internalConsole" </br>
+   改成</br>
+   "console": "externalTerminal" or "console": "integratedTerminal"</br>
+   接著儲存變更。就可以用Terminal Debug了</br>
    <img src="https://imgur.com/A9jYPvj.jpg"
      alt="find launch.json"
      style="float: left; margin-right: 10px;" /> </br> 
