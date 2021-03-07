@@ -19,7 +19,7 @@
 </p>    
 <h1>
    3. (必要)</br>
-      使用Console.ReadLine()函數，VSC的Terminal無法讀input</br>
+      使用Console.ReadLine()函數，VSC的Console無法讀input</br>
 </h1>
 <p>
    C# extension的debugger-launchjson.md有寫到</br>
