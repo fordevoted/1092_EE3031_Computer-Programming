@@ -36,40 +36,40 @@
    測試的結果為，若你有自己裝其他的split Terminal emulator(例如 tmux/terminator)
    在你額外開一個Terminal的情況下進行Debug，它就不會有輸出。
    請你去VSC的Preferences下的setting(可以由Ctrl + , 進入setting)
-   ![go_to_setting](https://imgur.com/SgdL3YZ.jpg)
-   搜尋Terminal相關設定，找到這一欄 Terminal > External
-   ![search_terminal_in_setting](https://imgur.com/i27G8Sx.jpg)
+   ![go_to_setting](https://imgur.com/SgdL3YZ.jpg) \
+   搜尋Terminal相關設定，找到這一欄 Terminal > External \
+   ![search_terminal_in_setting](https://imgur.com/i27G8Sx.jpg) \
    根據你自己的作業系統，把它改成預設Terminal emulator
    就可以在開其他Terminal下同時Debug了。
 
 
 ## 在Debug時, 不管用 F5 還是Ctrl + F5，Terminal都會在執行完後自動關閉。
-   目前這個問題好像都發生在Windows版的VSC上。
+   目前這個問題好像都發生在Windows版的VSC上。 \
    原因未知, 但應急解法如下
-   ###法一
-      老師建議：在各位同學的程式最後加上Console.ReadLine()，就可以在Debug後，達到
-      請按任意鍵繼續...
-      的效果。
-   ###法二
-      有同學一開始就自行將上述第3點的
-      "console": "internalConsole"
-      改成
-      "console": "integratedTerminal"
-      這樣即使Debubg完程式自動結束, 但輸出結果仍會留在VSC的Terminal上.
-      也不失為一種好方法.
+### 法一
+   老師建議：在各位同學的程式最後加上Console.Read()，就可以在Debug後，達到
+   請按任意鍵繼續...
+   的效果。
+### 法二
+   有同學一開始就自行將上述第3點的
+   "console": "internalConsole"
+   改成
+   "console": "integratedTerminal"
+   這樣即使Debubg完程式自動結束, 但輸出結果仍會留在VSC的Terminal上.
+   也不失為一種好方法.
 
 
 ## Debugger環境設定
    有同學反應
->  每次新建專案, 都要等他create .vscode這個資料夾,
->  而且他default又是"console":"internalConsole",
+>  每次新建專案, 都要等他create .vscode這個資料夾, \
+>  而且他default又是"console":"internalConsole", \
 >  還要再修改好麻煩, 是否有一勞永逸的方法?
 
    為了避免我們自行修改Extension/vscode的檔案, 最後改不回來.
    建議使用VSC的使用者設定, 來做環境測試/修改.
    方法如下:
-1. 打開VSC, 輸入Ctrl + , 進入setting後點右上角這個文件的圖示
-   ![open_setting.json](https://imgur.com/opqGmUH.jpg)
+1. 打開VSC, 輸入Ctrl + , 進入setting後點右上角左邊這個文件的圖示
+   ![open_setting.json](https://imgur.com/AY6NoZD.jpg)
    或
    從路徑 C:\Users\user\AppData\Roaming\Code\User\ 
    就可以找到並打開我們的vscode的setting.json
@@ -80,11 +80,11 @@
    也不用一直改"console":"integratefTerminal"了
    
 ### NOTE:
-      I. 這個檔案只包含了原本在.vscode資料夾下, launch.json及tasks.json的內容, 
+    I  . 這個檔案只包含了原本在.vscode資料夾下, launch.json及tasks.json的內容, 
          直接覆蓋原檔的話, 你的額外設定(ex:theme, 非內建terminal direction)會跑掉.
-     II. 這個檔案目前只適用於:名稱"不包含斜線(/)"的console專案, 請要使用的同學注意專案的命名.
+    II . 這個檔案目前只適用於:名稱"不包含斜線(/)"的console專案, 請要使用的同學注意專案的命名.
     III. 若在嘗試的過程出了問題, 直接把setting.json內容全刪, 改回{}即可.
-     IV. 有興趣自己調整環境的同學可以參考:
+    IV . 有興趣自己調整環境的同學可以參考:
          VSC syntax_variable:https://code.visualstudio.com/docs/editor/variables-reference 
          VSC debugger:https://github.com/microsoft/vscode-docs/blob/vnext/docs/editor/debugging.md#global-launch-configuration 
 
