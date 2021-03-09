@@ -31,6 +31,29 @@
 8. Terminal --> Run Build Task --> Build
 9. Run --> Run Without Debugging
 
+## C# Function Creation
+
+```
+using System;
+
+namespace csharp
+{
+    class Program
+    {
+        static void Function1()
+        {
+            ...
+        }
+        
+        static void Main(string[] args)
+        {
+            ...
+            Function1();
+        }
+    }
+}
+```
+
 ## Note
 
 After environment setup, you can start programming in "Main" function.
