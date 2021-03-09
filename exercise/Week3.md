@@ -17,7 +17,7 @@ Write a program that asks the user input two positive integers, then calculates 
 ## Medium
 #### **Question: Find 3-Narcissistic Number**
 A _N_-digit number which the summation of the _N_-th powers of its digits equals to itself is called a [_N_-narcissistic number](https://en.wikipedia.org/wiki/Narcissistic_number). 
-For example, 153 is a 3-narcissistic number (153 = 1<sup>3<sup> + 5<sup>3<sup> + 3<sup>3<sup>). 
+For example, 153 is a 3-narcissistic number (153 = 1<sup>3<sup> + 5<sup>3<sup> + 3<sup>3<sup> ). 
 Write a program to find out **all** of the 3-narcissistic numbers.
 
 **Hint:** Use ```for``` or ```while``` loop to check every number from 100 to 999.
