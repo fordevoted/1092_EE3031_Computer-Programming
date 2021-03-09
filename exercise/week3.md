@@ -20,7 +20,9 @@ A _N_-digit number which the summation of the _N_-th powers of its digits equals
 For example, 153 is a 3-narcissistic number (153 = 1<sup>3</sup> + 5<sup>3</sup> + 3<sup>3</sup>). 
 Write a program to find out **all** of the 3-narcissistic numbers.
 
-**Hint:** Use ```for``` or ```while``` loop to check every number from 100 to 999.
+**Hint:** 
+1. Use ```for``` or ```while``` loop to check every number from 100 to 999.
+2. For every number, you need to use ```/``` or ```%``` to get the three digits.
 
 #### Example
 ![image](https://user-images.githubusercontent.com/21131915/110295817-86001200-802c-11eb-92bd-4b80d1556091.png)
@@ -35,7 +37,7 @@ Assume _F<sub>1</sub>_=1 and _F<sub>2</sub>_=1, write a program that asks the us
 ). 
 
 **Note:** 
-1. You don't need to consider the overflow problem, please use ```ulong``` instead of ```int``` to declare _F<sub>n</sub>_ , _F<sub>n-1</sub>_ and _F<sub>n-2</sub>_ .
+1. You don't need to consider the overflow or underflow problem, please use ```ulong``` instead of ```int``` to declare _F<sub>n</sub>_ , _F<sub>n-1</sub>_ and _F<sub>n-2</sub>_ .
 2. You are encouraged to use ```for``` loop to solve this problem, **DO NOT** use recursion(will be discussed on Chapter 13.4).
 
 #### Example
