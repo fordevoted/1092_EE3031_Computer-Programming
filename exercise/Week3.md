@@ -40,3 +40,4 @@ Assume _F<sub>1</sub>_=1 and _F<sub>2</sub>_=1, write a program that asks the us
 #### Example
 ![](https://i.imgur.com/sF5rhBa.png)
 
+\pi\::\text{\pi}& \phi\:: \text{\phi}\
