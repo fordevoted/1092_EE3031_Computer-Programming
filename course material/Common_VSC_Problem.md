@@ -70,7 +70,7 @@
 2. 把以下連結中的{}內容全部複製過去我們的setting.json的{}中, \
    https://github.com/fordevoted/1092_EE3031_Computer-Programming/blob/main/course%20material/settings.json \
    往後新建專案應該就不用等他建.vscode, \
-   也不用一直改"console":"integratefTerminal"了
+   也不用一直改"console":"integratedTerminal"了
    
 ### NOTE:
     I  . 這個檔案只包含了原本在.vscode資料夾下, launch.json及tasks.json的內容, 
