@@ -1,9 +1,11 @@
 # VS Code Common Problem
+
 ## 於mac上安裝visual studio code:
    請參考老師的講義
    https://cool.ntu.edu.tw/courses/4605/files/563742?module_item_id=168414
    或前助教的講義
    https://github.com/fordevoted/1092_EE3031_Computer-Programming/blob/main/course%20material/MAC_VS_Code_Installation.pdf
+
 
 ## VSC顯示錯誤，不能build專案
    如果你VSC在build專案時，於VSC的Terminal顯示以下錯誤訊息
@@ -13,8 +15,10 @@
    這是代表了你的VSC Terminal並不知道dotnet是什麼意思（或稱，它不知道你的dotnet裝在哪裡）
    請確認dotnet已經安裝完畢，且有將dotnet加入系統環境變數中，並且重開VSC，再重新測試。
 
-## (essential)使用Terminal來Debug
-   C# extension的debugger-launchjson.md有寫到
+
+## 使用Terminal來Debug
+   :rotating_light:重要:rotating_light: \
+   C# extension的debugger-launchjson.md中寫到
    ```
    "internalConsole" does **NOT** work for applications that want to read from the console.
    ```
@@ -25,23 +29,19 @@
    改成
    "console": "integratedTerminal"
    Ctrl + S儲存變更。就可以用Terminal Debug了
-   <img src="https://imgur.com/A9jYPvj.jpg"
-     alt="find launch.json"
-     style="float: left; margin-right: 10px;" />
-     
+   ![find_launch.json](https://imgur.com/opqGmUH.jpg)
+  
+  
 ## 在使用外部Terminal Debug時, Terminal沒有印出結果, 但VSC也沒有顯示錯誤
    測試的結果為，若你有自己裝其他的split Terminal emulator(例如 tmux/terminator)
    在你額外開一個Terminal的情況下進行Debug，它就不會有輸出。
    請你去VSC的Preferences下的setting(可以由Ctrl + , 進入setting)
-   <img src="https://imgur.com/SgdL3YZ.jpg"
-     alt="go to setting"
-     style="float: left; margin-right: 10px;" />
+   ![go_to_setting](https://imgur.com/SgdL3YZ.jpg)
    搜尋Terminal相關設定，找到這一欄 Terminal > External
-   <img src="https://imgur.com/i27G8Sx.jpg"
-    alt="search terminal in setting"
-    style="float: left; margin-right: 10px;" />
+   ![search_terminal_in_setting](https://imgur.com/i27G8Sx.jpg)
    根據你自己的作業系統，把它改成預設Terminal emulator
    就可以在開其他Terminal下同時Debug了。
+
 
 ## 在Debug時, 不管用 F5 還是Ctrl + F5，Terminal都會在執行完後自動關閉。
    目前這個問題好像都發生在Windows版的VSC上。
@@ -51,12 +51,13 @@
       請按任意鍵繼續...
       的效果。
    ###法二
-      有同學是將上述第3點的
+      有同學一開始就自行將上述第3點的
       "console": "internalConsole"
       改成
       "console": "integratedTerminal"
       這樣即使Debubg完程式自動結束, 但輸出結果仍會留在VSC的Terminal上.
       也不失為一種好方法.
+
 
 ## Debugger環境設定
    有同學反應
@@ -68,9 +69,7 @@
    建議使用VSC的使用者設定, 來做環境測試/修改.
    方法如下:
 1. 打開VSC, 輸入Ctrl + , 進入setting後點右上角這個文件的圖示
-   <img src="https://imgur.com/opqGmUH.jpg"
-    alt="find setting.json"
-    style="float: left; margin-right: 10px;" /> 
+   ![open_setting.json](https://imgur.com/opqGmUH.jpg)
    或
    從路徑 C:\Users\user\AppData\Roaming\Code\User\ 
    就可以找到並打開我們的vscode的setting.json
@@ -79,6 +78,7 @@
    https://github.com/fordevoted/1092_EE3031_Computer-Programming/blob/main/course%20material/settings.json
    往後新建專案應該就不用等他建.vscode,
    也不用一直改"console":"integratefTerminal"了
+   
 ### NOTE:
       I. 這個檔案只包含了原本在.vscode資料夾下, launch.json及tasks.json的內容, 
          直接覆蓋原檔的話, 你的額外設定(ex:theme, 非內建terminal direction)會跑掉.
@@ -87,6 +87,7 @@
      IV. 有興趣自己調整環境的同學可以參考:
          VSC syntax_variable:https://code.visualstudio.com/docs/editor/variables-reference 
          VSC debugger:https://github.com/microsoft/vscode-docs/blob/vnext/docs/editor/debugging.md#global-launch-configuration 
+
 
 ## 其他
    若還有其他關於Visual Studio Code/ Visual Studio的環境設定問題，
