@@ -2,7 +2,10 @@
 
 ## 於mac上安裝visual studio code:
    請參考[老師的講義](https://cool.ntu.edu.tw/courses/4605/files/563742?module_item_id=168414) \
-   或 [前助教的講義](https://github.com/fordevoted/1092_EE3031_Computer-Programming/blob/main/course%20material/MAC_VS_Code_Installation.pdf)
+   或 [前助教的講義](https://github.com/fordevoted/1092_EE3031_Computer-Programming/blob/main/course%20material/MAC_VS_Code_Installation.pdf) \
+   延伸閱讀：終端機,環境變數簡介 \
+   [windows](https://cool.ntu.edu.tw/courses/4605/files/570123?module_item_id=172004) \
+   [mac](https://cool.ntu.edu.tw/courses/4605/files/570124?module_item_id=172005)
 
 ## VSC顯示錯誤，不能build專案
    如果你VSC在build專案時，於VSC的Terminal顯示以下錯誤訊息
@@ -12,6 +15,7 @@
    這是代表了你的VSC Terminal並不知道dotnet是什麼意思（或稱，它不知道你的dotnet裝在哪裡）\
    請確認dotnet已經安裝完畢，且有將dotnet加入系統環境變數中，並且重開VSC，再重新測試。 \
    dotnet的安裝步驟請參考開頭的兩份講義。
+   
 
 
 ## 使用Terminal來Debug
@@ -75,12 +79,12 @@
    為了避免我們自行修改Extension/vscode的檔案, 最後改不回來.
    建議使用VSC的使用者設定, 來做環境測試/修改.
    方法如下:
-1. 打開VSC, 輸入Ctrl + , 進入setting後點右上角左邊這個文件的圖示 \
+   打開VSC, 輸入Ctrl + , 進入setting後點右上角左邊這個文件的圖示 \
    ![open_setting.json](https://imgur.com/AY6NoZD.jpg) \
    或從路徑 C:\Users\user\AppData\Roaming\Code\User\ \
    找到並打開我們的vscode的setting.json \
-   自行閱讀VSC的documents在setting.json中加入你的個人設定。
-   [VSC syntax_variable](https://code.visualstudio.com/docs/editor/variables-reference)
+   自行閱讀VSC的documents在setting.json中加入你的個人設定。 \
+   [VSC syntax_variable](https://code.visualstudio.com/docs/editor/variables-reference) \
    [VSC debugger](https://github.com/microsoft/vscode-docs/blob/vnext/docs/editor/debugging.md#global-launch-configuration)
 
 ## 其他
