@@ -35,10 +35,10 @@
    回去VSC的coding畫面，IDE會提醒你。 \
    ![with_error](https://imgur.com/dRBEsL1.jpg) \
     \
-   當然，以上全部步驟，都可以在VSC的integratedTerminal中執行： \
+   當然，以上全部步驟，都可以直接在VSC的integratedTerminal中執行： \
    ![use_VSC](https://imgur.com/enEpmbS.jpg)
    
-### 使用VSC coding、Debug
+### 使用VSC coding、VSC的integratedTerminal Debug
    1. 在你的專案profile中 打開.vscode/launch.json檔案
    2. 把 "console": "internalConsole" 改成 "console": "integratedTerminal" , 接著Ctrl + S儲存變更。就可以用Terminal Debug了 \
    ![find_launch.json](https://imgur.com/opqGmUH.jpg) 
