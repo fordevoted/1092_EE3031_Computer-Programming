@@ -46,8 +46,10 @@
    ![use_integratedTerminal](https://imgur.com/yWBj9Nm.jpg) 
    > 第一種方法**不用等VSC建立.vscode資料夾** \
    > 但要請同學練習/學會一些基礎cmd/terminal指令。 \
-   > 而且在coding時用 cmd/terminal 感覺就很帥很專業。 \
-   > 第二種方法較為麻煩，不怕麻煩的同學，繼續使用也無妨。
+   > 
+   > 第二種方法較為麻煩， \
+   > 但是可以使用VSC的Debugger功能，設定breakpoint， \
+   > 一步步的看程式運行間各變數的狀況。
 
 ## 我是使用"console":"externalTerminal", 但Terminal沒有印出結果, VSC也沒有顯示錯誤
    測試的結果為，若你有自己裝其他的split Terminal emulator(例如 tmux/terminator) \
