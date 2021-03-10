@@ -27,7 +27,7 @@
    故請同學把Debugger設為於terminal中執行 \
    以下有兩種方法，請同學自由選擇。
 ### 使用VSC coding，使用cmd/terminal Debug
-   步驟說明清參照：[/course_material/Project_Creation.md](https://github.com/fordevoted/1092_EE3031_Computer-Programming/blob/main/course%20material/Project%20Creation.md#using-command-linecmd) \
+   步驟說明請參照：[/course_material/Project_Creation.md](https://github.com/fordevoted/1092_EE3031_Computer-Programming/blob/main/course%20material/Project%20Creation.md#using-command-linecmd) \
    這邊只提供成功的圖例： \
    ![use_cmd](https://imgur.com/L7xQ7YS.jpg) \
    若你的Program.cs有語法錯誤： \
