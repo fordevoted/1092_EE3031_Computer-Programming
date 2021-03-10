@@ -33,6 +33,8 @@
 
 ## C# Function Creation
 
+The `Main` method is the entry point of a C# application. Thus the execution order of statement 1~3 should be statement2→statement3→statement1. 
+
 ```
 using System;
 
@@ -42,13 +44,14 @@ namespace csharp
     {
         static void Function1()
         {
-            ...
+            statement1;
         }
         
         static void Main(string[] args)
         {
-            ...
+            statement2;
             Function1();
+            statement3;
         }
     }
 }
