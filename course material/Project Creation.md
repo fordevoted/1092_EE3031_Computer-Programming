@@ -8,6 +8,7 @@
 
 4. type `dotnet new console -o PATH` in terminal, where PATH is the path of your folder
 
+- note that you can copy the path of your folder by clicking the red block in the following figure and typing `ctrl+c`
    ![fig1](https://user-images.githubusercontent.com/8816002/110671384-6540e380-8209-11eb-935e-37019df696f8.jpg)
 
 5. File --> Open Folder, open the folder you create
