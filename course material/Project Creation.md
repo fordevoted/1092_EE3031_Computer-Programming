@@ -33,6 +33,10 @@
 
 ## C# Function Creation
 
+A **method** is a block of code which only runs when it is called. Methods are used to perform certain actions, and they are also known as **functions**.
+
+Why use methods? To reuse code: define the code once, and use it many times.
+
 The `Main` method is the entry point of a C# application. Thus the execution order of statement 1~3 should be statement2→statement3→statement1. 
 
 ```
