@@ -1,9 +1,24 @@
 # Week3 Exercise
 ## Easy
+#### **Question: Find 3-Narcissistic Number**
+A _N_-digit number which the summation of the _N_-th powers of its digits equals to itself is called a [_N_-narcissistic number](https://en.wikipedia.org/wiki/Narcissistic_number). 
+For example, 153 is a 3-narcissistic number (153 = 1<sup>3</sup> + 5<sup>3</sup> + 3<sup>3</sup>). 
+Write a program to find out **all** of the 3-narcissistic numbers.
+
+**Hint:** 
+1. You can take Chapter 4.7 as reference. Use ```for``` or ```while``` loop to check every number from 100 to 999.
+2. For every number, you need to use ```/``` or ```%``` to get the three digits.
+
+#### Example
+![image](https://user-images.githubusercontent.com/21131915/110295817-86001200-802c-11eb-92bd-4b80d1556091.png)
+
+## Medium
 #### **Question: Greatest Common Divisor and Least Common Multiple**
 Write a program that asks the user input two positive integers, then calculates their greatest common divisor(GCD) and least common multiple(LCM).
 
-**Hint:** Use ```for``` or ```while``` loop to check every number smaller than the inputs to find out GCD, then calculate LCM. **DO NOT** use recursion(will be discussed on Chapter 13.4).
+**Hint:** 
+1. You can take Chapter 4.11 as reference, use the [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm) to find out GCD, then calculate LCM. 
+2. **DO NOT** use recursion(will be discussed on Chapter 13.4).
 
 #### Example 1
 ![image](https://user-images.githubusercontent.com/21131915/110319166-7511c980-8049-11eb-99d2-ed645a0ad897.png)
@@ -13,19 +28,6 @@ Write a program that asks the user input two positive integers, then calculates 
 
 #### Example 3
 ![image](https://user-images.githubusercontent.com/21131915/110292328-ff493600-8027-11eb-93e7-8deacebbd71d.png)
-
-## Medium
-#### **Question: Find 3-Narcissistic Number**
-A _N_-digit number which the summation of the _N_-th powers of its digits equals to itself is called a [_N_-narcissistic number](https://en.wikipedia.org/wiki/Narcissistic_number). 
-For example, 153 is a 3-narcissistic number (153 = 1<sup>3</sup> + 5<sup>3</sup> + 3<sup>3</sup>). 
-Write a program to find out **all** of the 3-narcissistic numbers.
-
-**Hint:** 
-1. Use ```for``` or ```while``` loop to check every number from 100 to 999.
-2. For every number, you need to use ```/``` or ```%``` to get the three digits.
-
-#### Example
-![image](https://user-images.githubusercontent.com/21131915/110295817-86001200-802c-11eb-92bd-4b80d1556091.png)
 
 ## Hard
 #### **Question: Fibonacci Sequence and Golden Ratio**
@@ -37,8 +39,9 @@ Assume _F<sub>1</sub>_=1 and _F<sub>2</sub>_=1, write a program that asks the us
 ). 
 
 **Note:** 
-1. You don't need to consider the overflow or underflow problem, please use ```ulong``` instead of ```int``` to declare _F<sub>n</sub>_ , _F<sub>n-1</sub>_ and _F<sub>n-2</sub>_ .
-2. You are encouraged to use ```for``` loop to solve this problem, **DO NOT** use recursion(will be discussed on Chapter 13.4).
+1. You can take problem 6 in [Chapter 4 exercises](https://cool.ntu.edu.tw/courses/4605/files/545441?module_item_id=151689) as reference.
+2. You don't need to consider the overflow or underflow problem, please use ```ulong``` instead of ```int``` to declare _F<sub>n</sub>_ , _F<sub>n-1</sub>_ and _F<sub>n-2</sub>_ .
+3. You are encouraged to use ```for``` loop to solve this problem. **DO NOT** use recursion(will be discussed on Chapter 13.4).
 
 #### Example
 ![](https://i.imgur.com/sF5rhBa.png)
