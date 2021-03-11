@@ -31,7 +31,7 @@ Write a program that asks the user input two positive integers, then calculates 
 
 ## Hard
 #### **Question: Fibonacci Sequence and Golden Ratio**
-「人格特化指數1.61803 黃金比例 ![phi](http://latex.codecogs.com/svg.latex?\phi)人格特化指數已達黃金比例![](http://latex.codecogs.com/svg.latex?\phi) ．．．」 This is a popular song [《凶宅》](https://youtu.be/PBTSeGLIB_U) by a famous rapper 熊仔Kumachan.
+「人格特化指數1.61803 黃金比例 ![phi](http://latex.codecogs.com/svg.latex?\phi)人格特化指數已達黃金比例 ![](http://latex.codecogs.com/svg.latex?\phi) ．．．」 This is a popular song [《凶宅》](https://youtu.be/PBTSeGLIB_U) by a famous rapper 熊仔Kumachan.
 
 To calculate the[ golden ratio ![](http://latex.codecogs.com/svg.latex?\phi)](https://en.wikipedia.org/wiki/Golden_ratio) , we can first observe the [Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_number): 1 , 1 , 2 , 3 , 5 , 8 , 13 , 21 , etc.  In this sequence, the upcoming number is found by adding up the two numbers before itself, that is, _F<sub>n</sub>_ = _F<sub>n-1</sub>_ + _F<sub>n-2</sub>_ . While _n_ becomes larger, the ratio ![\large](http://latex.codecogs.com/svg.latex?\frac{F_{n}}{F_{n-1}}) converges to golden ratio as _n_ goes to infinity.
 
