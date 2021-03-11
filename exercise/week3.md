@@ -6,7 +6,7 @@ For example, 153 is a 3-narcissistic number (153 = 1<sup>3</sup> + 5<sup>3</sup>
 Write a program to find out **all** of the 3-narcissistic numbers.
 
 **Hint:** 
-1. You can take Chapter 4.7 as reference. Use ```for``` or ```while``` loop to check every number from 100 to 999.
+1. You can take [Chapter 4.7](https://cool.ntu.edu.tw/courses/4605/files/545442?module_item_id=151688) as reference. Use ```for``` or ```while``` loop to check every number from 100 to 999.
 2. For every number, you need to use ```/``` or ```%``` to get the three digits.
 
 #### Example
@@ -17,7 +17,7 @@ Write a program to find out **all** of the 3-narcissistic numbers.
 Write a program that asks the user input two positive integers, then calculates their greatest common divisor(GCD) and least common multiple(LCM).
 
 **Hint:** 
-1. You can take Chapter 4.11 as reference, use the [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm) to find out GCD, then calculate LCM. 
+1. You can take [Chapter 4.11](https://cool.ntu.edu.tw/courses/4605/files/545442?module_item_id=151688) as reference, use the [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm) to find out GCD, then calculate LCM. 
 2. **DO NOT** use recursion(will be discussed on Chapter 13.4).
 
 #### Example 1
