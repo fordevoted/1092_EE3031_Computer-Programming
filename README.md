@@ -9,6 +9,8 @@ Download [Xmind](https://www.xmind.net/), a full-featured mind mapping and brain
 ## Repository Structure
 ```
 1092_EE3031_Computer-Programming
+├── TA Lecture
+│   └── ...
 ├── course material
 │   └── ...
 ├── exercise
@@ -16,11 +18,7 @@ Download [Xmind](https://www.xmind.net/), a full-featured mind mapping and brain
 │   ├── ...
 │   └── week`n`.md
 ├── homework
-│   ├── hw`1`.md
-│   ├── hw`1`.exe
-│   ├── ...
-│   ├── hw`n`.md
-│   └── hw`n`.exe
+│   └── ...
 └── README.md
 
 ``` 
