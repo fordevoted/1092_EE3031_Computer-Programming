@@ -60,7 +60,7 @@
                 Console.WriteLine("The Greatest Common Divisor of {0} and {1} is {2}", num1, num2, GCD);
                 Console.WriteLine("The Least Common Multiple of {0} and {1} is {2}", num1, num2, LCM);
             }
-            else{//num1或num2為負數
+            else{//num1或num2為負數或0
                 Console.WriteLine("Value Out of Range.");
             }
             /*Solution2*/
@@ -79,7 +79,7 @@
                 Console.WriteLine("The Greatest Common Divisor of {0} and {1} is {2}", num1, num2, GCD);
                 Console.WriteLine("The Least Common Multiple of {0} and {1} is {2}", num1, num2, LCM);
             }
-            else{//num1或num2為負數
+            else{//num1或num2為負數或0
                 Console.WriteLine("Value Out of Range.");
             }
             */
@@ -92,7 +92,7 @@
             Console.WriteLine("F({0})={1}, ratio={2}",1,Fib1,0);//顯示F(1)=1, ratio=0 (注意F1前一項為0, 記得不要除以0!!)
             Console.WriteLine("F({0})={1}, ratio={2}",2,Fib2, Fib2/Fib1);//顯示F(2)=1, ratio=1
             if(n>=3){                
-                for(int i=3;i<=n;i++){//計算出第 i 個Fibonacci number以及ratio並顯示
+                for(int i=3;i<=n;i++){//此迴圈計算出第 i 個Fibonacci number以及ratio並顯示
                     temp=Fib2;
                     Fib2=Fib1+Fib2;
                     Fib1=temp;
