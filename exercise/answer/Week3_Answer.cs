@@ -20,7 +20,7 @@
                 int digit1=(num/100)%10;//取得 num 的百位數字
                 int digit2=(num/10)%10;//取得 num 的十位數字
                 int digit3=num%10;//取得 num 的個位數字                
-                int sum = digit1*digit1*digit1 + digit2*digit2*digit2 + digit3*digit3*digit3;//算出每個數的3次方的總和
+                int sum = digit1*digit1*digit1 + digit2*digit2*digit2 + digit3*digit3*digit3;//算出每個digit的3次方的總和
                 //計算次方也可以使用如下 Math.Pow(x,y)  即可得到 x 的 y 次方, 要注意回傳型態是double
                 //double sum =Math.Pow(digit1,3)+Math.Pow(digit2,3)+Math.Pow(digit3,3);
                 if(sum==num){//判斷是否等於 num 自己本身
