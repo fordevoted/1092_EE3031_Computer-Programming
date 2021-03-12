@@ -39,17 +39,17 @@
    ![use_VSC](https://imgur.com/enEpmbS.jpg)
    
 ### 使用VSC coding、VSC的integratedTerminal Debug
-   1. 在你的專案profile中 打開.vscode/launch.json檔案 \
+   1. 在你的專案profile中 打開.vscode/launch.json檔案 
    2. 把 "console": "internalConsole" 改成 "console": "integratedTerminal" , 接著Ctrl + S儲存變更。就可以用Terminal Debug了 \
    ![find_launch.json](https://imgur.com/opqGmUH.jpg) 
    3. Debug結果會如下圖 \
    ![use_integratedTerminal](https://imgur.com/yWBj9Nm.jpg) 
    > 第一種方法**不用等VSC建立.vscode資料夾** \
-   > 但要請同學練習/學會一些基礎cmd/terminal指令。 \
+   > 但要請同學練習/學會一些基礎cmd/terminal指令。 
    > 
    > 第二種方法較為麻煩， \
    > :star2:**但可以使用VSC的Debugger功能，設定breakpoint，** \
-   > :star2:**一步步的看程式運行間各變數的狀況。** \
+   > :star2:**一步步的看程式運行間各變數的狀況。** 
    > 
    > 希望同學上述兩種方法都要學會， \
    > 第一種方法可以幫助我們快速瀏覽程式執行狀況， \
