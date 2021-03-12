@@ -25,7 +25,7 @@
    "internalConsole" does **NOT** work for applications that want to read from the console.
    ```
    故請同學把Debugger設為於terminal中執行 \
-   以下有兩種方法，請同學自由選擇。
+   以下有兩種方法，供同學參考。
 ### 使用VSC coding，使用cmd/terminal Debug
    步驟說明請參照：[/course_material/Project_Creation.md](https://github.com/fordevoted/1092_EE3031_Computer-Programming/blob/main/course%20material/Project%20Creation.md#using-command-linecmd) \
    這邊只提供成功的圖例： \
