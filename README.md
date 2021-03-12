@@ -12,7 +12,10 @@ Download [Xmind](https://www.xmind.net/), a full-featured mind mapping and brain
 ├── TA Lecture
 │   └── ...
 ├── course material
-│   └── ...
+│   ├── Course.pdf
+│   ├── MAC_VS_Code_Installation.pdf
+│   ├── Project Creation.md
+│   └── Windows_VS_Code_Installation.pdf
 ├── exercise
 │   ├── week`1`.md
 │   ├── ...
