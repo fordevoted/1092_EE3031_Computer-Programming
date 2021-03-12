@@ -39,7 +39,7 @@
    ![use_VSC](https://imgur.com/enEpmbS.jpg)
    
 ### 使用VSC coding、VSC的integratedTerminal Debug
-   1. 在你的專案profile中 打開.vscode/launch.json檔案
+   1. 在你的專案profile中 打開.vscode/launch.json檔案 \
    2. 把 "console": "internalConsole" 改成 "console": "integratedTerminal" , 接著Ctrl + S儲存變更。就可以用Terminal Debug了 \
    ![find_launch.json](https://imgur.com/opqGmUH.jpg) 
    3. Debug結果會如下圖 \
@@ -48,8 +48,12 @@
    > 但要請同學練習/學會一些基礎cmd/terminal指令。 \
    > 
    > 第二種方法較為麻煩， \
-   > 但是可以使用VSC的Debugger功能，設定breakpoint， \
-   > 一步步的看程式運行間各變數的狀況。
+   > :star2:**但可以使用VSC的Debugger功能，設定breakpoint，** \
+   > :star2:**一步步的看程式運行間各變數的狀況。**
+   > 
+   > 希望同學上述兩種方法都要學會，
+   > 第一種方法可以幫助我們快速瀏覽程式執行狀況，
+   > 第二種方法的Debugger，在我們遇到程式內的邏輯錯誤時，非常有用。
 
 ## 我是使用"console":"externalTerminal", 但Terminal沒有印出結果, VSC也沒有顯示錯誤
    測試的結果為，若你有自己裝其他的split Terminal emulator(例如 tmux/terminator) \
@@ -66,8 +70,8 @@
    目前這個問題好像都發生在Windows版的VSC上。 \
    原因未知, 但應急解法如下
 ### 法一
-   老師建議：在各位同學的程式最後加上Console.Read()，就可以在Debug後，達到
-   請按任意鍵繼續...
+   老師建議：在各位同學的程式最後加上Console.ReadLine()或Console.Read()，就可以在Debug後，達到 \
+   請按任意鍵繼續... \
    的效果。
 ### 法二
    有同學一開始就自行將上述第3點的 \
@@ -78,9 +82,9 @@
    請參照上述[使用Terminal來Debug](https://github.com/fordevoted/1092_EE3031_Computer-Programming/edit/main/course%20material/Common_VSC_Problem.md##使用Terminal來Debug)
 
 ## Debugger環境設定
-   為了避免我們自行修改Extension/vscode的檔案, 最後改不回來.
-   建議使用VSC的使用者設定, 來做環境測試/修改.
-   方法如下:
+   為了避免我們自行修改Extension/vscode的檔案, 最後改不回來. \
+   建議使用VSC的使用者設定, 來做環境測試/修改. \
+   方法如下: \
    打開VSC, 輸入Ctrl + , 進入setting後點右上角左邊這個文件的圖示 \
    ![open_setting.json](https://imgur.com/AY6NoZD.jpg) \
    或從路徑 C:\Users\user\AppData\Roaming\Code\User\ \
