@@ -1,18 +1,13 @@
-﻿using System;
-namespace Hello
-{
-    class Program
-    {
         static void Main(string[] args)//<----主程式進入點, 從Main函式這裡開始跑
         {
             //不熟悉這個用法的同學也可以先分開寫每一題
-            easy();//呼叫easy函式(會跳到第 21 行開始執行)
+            easy();//呼叫easy函式(會跳到第 17 行開始執行)
             Console.WriteLine("easy done.");
 
-            medium();//呼叫medium函式(跳到第 50 行開始執行)
+            medium();//呼叫medium函式(跳到第 46 行開始執行)
             Console.WriteLine("medium done.");
 
-            hard();//呼叫hard函式(跳到第 92 行開始執行)
+            hard();//呼叫hard函式(跳到第 88 行開始執行)
             Console.WriteLine("hard done.");
 
             Console.WriteLine("按Enter鍵結束");
@@ -108,5 +103,3 @@ namespace Hello
                 Console.WriteLine("Value Out of Range");
             } 
         }
-    }
-}
