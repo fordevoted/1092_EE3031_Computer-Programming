@@ -41,7 +41,7 @@
                 }
             }
             */            
-        }
+        }//easy函式結束, 回到Main函式繼續執行
         /*GCD & LCM*/
         static void medium(){
             /*Solution1:輾轉相除(recommend)*/
@@ -83,7 +83,7 @@
                 Console.WriteLine("Value Out of Range.");
             }
             */
-        }
+        }//medium函式結束, 回到Main函式繼續執行
         /*Fibonacci sequence and golden ratio*/
         static void hard(){
             Console.Write("Enter N:");
@@ -102,4 +102,4 @@
             else if(n<=0){
                 Console.WriteLine("Value Out of Range");
             } 
-        }
+        }//hard函式結束, 回到Main函式繼續執行
