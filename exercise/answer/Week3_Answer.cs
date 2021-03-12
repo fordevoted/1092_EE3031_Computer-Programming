@@ -33,7 +33,7 @@
                 for(int digit2=0;digit2<=9;digit2++){//十位數字從0~9
                     for(int digit3=0;digit3<=9;digit3++){//個位數字從0~9
                         int num = digit1*100+digit2*10+digit3;//還原該數字
-                        int sum = digit1*digit1*digit1 + digit2*digit2*digit2 + digit3*digit3*digit3;//算出每個數的3次方的總和
+                        int sum = digit1*digit1*digit1 + digit2*digit2*digit2 + digit3*digit3*digit3;//算出每個digit的3次方的總和
                         if(sum==num){
                             Console.WriteLine("{0} is a 3-Narcissistic number.", num);
                         }
