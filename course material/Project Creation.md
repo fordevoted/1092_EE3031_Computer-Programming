@@ -66,6 +66,8 @@ Remember to save your code by keyboard shortcut `ctrl+s`, and then you can test 
 C:\Users\user\Desktop\Csharp>dotnet run
 ```
 
+To easily reuse your command, you can type ***↑*** in terminal.
+
 ## C# Function Creation
 
 A **method** is a block of code which only runs when it is called. Methods are used to perform certain actions, and they are also known as **functions**.
