@@ -76,7 +76,7 @@ A **method** is a block of code which only runs when it is called. Methods are u
 
 Why use methods? To reuse code: define the code once, and use it many times.
 
-The `Main` method is the entry point of a C# application. Thus the execution order of statement 1~3 should be `statement2`→`statement3`→`statement1`. 
+The `Main` method is the entry point of a C# application. Thus the execution order of statement 1~3 should be `statement2`→`statement1`→`statement3`. 
 
 ```
 using System;
