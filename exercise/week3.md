@@ -40,7 +40,7 @@ Assume _F<sub>1</sub>_=1 and _F<sub>2</sub>_=1, write a program that asks the us
 
 **Note:** 
 1. You can take problem 6 in [Chapter 4 exercises](https://cool.ntu.edu.tw/courses/4605/files/545441?module_item_id=151689) as reference.
-2. You don't need to consider the overflow or underflow problem, please use ```ulong``` instead of ```int``` to declare _F<sub>n</sub>_ , _F<sub>n-1</sub>_ and _F<sub>n-2</sub>_ .
+2. You don't need to consider the overflow or underflow problem, please use ```double``` or ```ulong``` instead of ```int``` to declare _F<sub>n</sub>_ , _F<sub>n-1</sub>_ and _F<sub>n-2</sub>_ .
 3. You are encouraged to use ```for``` loop to solve this problem. **DO NOT** use recursion(will be discussed on Chapter 13.4).
 
 #### Example
