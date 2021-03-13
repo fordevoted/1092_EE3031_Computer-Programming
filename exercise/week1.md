@@ -1,4 +1,4 @@
-# C# Exercises
+# Week1 Exercise
 
 You can test your C# skills with [W3Schools' Exercises](https://www.w3schools.com/cs/cs_exercises.asp).
 
