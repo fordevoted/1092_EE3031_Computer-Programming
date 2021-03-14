@@ -55,18 +55,7 @@
    > 第一種方法可以幫助我們快速瀏覽程式執行狀況， \
    > 第二種方法的Debugger，在我們遇到程式內的邏輯錯誤時，非常有用。
 
-## 我是使用"console":"externalTerminal", 但Terminal沒有印出結果, VSC也沒有顯示錯誤
-   測試的結果為，若你有自己裝其他的split Terminal emulator(例如 tmux/terminator) \
-   在你額外開一個Terminal的情況下進行Debug，它就不會有輸出。 \
-   請你去VSC的Preferences下的setting(可以由Ctrl + , 進入setting) \
-   ![go_to_setting](https://imgur.com/SgdL3YZ.jpg) \
-   搜尋Terminal相關設定，找到這一欄 Terminal > External \
-   ![search_terminal_in_setting](https://imgur.com/i27G8Sx.jpg) \
-   根據你自己的作業系統，把它改回預設的Terminal emulator \
-   就可以在開其他Terminal下同時Debug了。
-
-
-## 在Debug時, 不管用 F5 還是Ctrl + F5，Terminal都會在執行完後自動關閉。
+## 在Debug時, 不管用 F5 還是Ctrl + F5，程式都會在執行完後自動關閉。
    目前這個問題好像都發生在Windows版的VSC上。 \
    原因未知, 但應急解法如下
 ### 法一
