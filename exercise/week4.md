@@ -32,7 +32,7 @@ Enter a range: 6
 
 #### **Question: 中二 ID generator**
 
-In this program, you need to randomly generate a 中二 ID. Your ID may include prefix, postfix and infix. The content should be a combination of two words separated by infix. For example:
+In this program, you need to randomly generate a 中二 ID. Your ID may include prefix, postfix and infix. The content should be a combination of two words. For example:
 
 >   1. naming with prefix, postfix and infix: \楓糖★戀果/
 >   2. naming with prefix and postfix: \楓糖戀果/
