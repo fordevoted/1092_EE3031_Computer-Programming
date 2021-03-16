@@ -3,7 +3,7 @@
 
 #### **Question: Number Triangle**
 
-Please print a number triangle of range n. Where n is a positive integer derived from user input.
+Please print a number triangle of range n, where n is a positive integer derived from user input.
 
 #### Example 1
 
@@ -32,14 +32,14 @@ Enter a range: 6
 
 #### **Question: 中二 ID generator**
 
-In this program, you need to randomly generate a 中二 ID. Your name may have symmetry prefix and postfix or infix. The content should be a combination of two words, which may be separated by infix. For example:
+In this program, you need to randomly generate a 中二 ID. Your ID may include prefix, postfix and infix. The content should be a combination of two words separated by infix. For example:
 
 >   1. naming with prefix, postfix and infix: \楓糖★戀果/
 >   2. naming with prefix and postfix: \楓糖戀果/
 >   3. naming with infix: 楓糖★戀果
 >   4. naming without prefix, postfix and infix: 楓糖戀果
 
-The above four types of naming are able to generated from your program. The naming contents are showed as following: 
+Your program should be able to generate the above four types of naming. The naming contents are showed as following: 
 
 ```
 prefix and postfix:
