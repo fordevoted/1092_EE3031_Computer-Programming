@@ -49,10 +49,10 @@ infix:
 a, o, x, 之, ★, ～, ‧
 
 first word:
-小小, 元氣, 楓糖, 星, 煞氣, 闇夜, 血
+小小, 元氣, 楓糖, 霸氣, 煞氣, 闇夜, 血
 
 second word:
-糖, 漾, 戀果, 織羽, 薔薇
+糖, 漾, 戀果, 鮭魚, 鮪魚, 大閘蟹
 ```
 
 Please randomly generate a 中二 ID.
