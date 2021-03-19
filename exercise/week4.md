@@ -5,6 +5,10 @@
 
 Please print a number triangle of range n, where n is a positive integer derived from user input.
 
+**Hint:** 
+
+1. String of space (" ") and digit ("0") have same spacing
+
 #### Example 1
 
 ```
