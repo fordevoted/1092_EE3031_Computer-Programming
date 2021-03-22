@@ -63,9 +63,15 @@ Sum of all integers equals to 31
 
 Hint1: \
 To build a Pascal's triangle, \
-you need to build if from row0 -> row1 -> row2 and so on. 
+you need to build it from row0 -> row1 -> row2 and so on. 
 
 Hint2: \
+To build a Pascal's triangle, \
+you could use for-for loop you learned in  \
+:bulb: Week4 Exercise Easy - Number Triangle.:bulb: \
+The most different is that you need to save number into array.
+
+Hint3: \
 ![hint](https://imgur.com/dt2Nlq3.jpg)
 
 ## Hard
