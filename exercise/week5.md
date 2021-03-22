@@ -61,7 +61,11 @@ A Pascal's triangle with height equals to 5. \
 1 4 6 4 1 \
 Sum of all integers equals to 31
 
-Hint: \
+Hint1: \
+To build a Pascal's triangle, \
+you need to build if from row0 -> row1 -> row2 and so on. 
+
+Hint2: \
 ![hint](https://imgur.com/dt2Nlq3.jpg)
 
 ## Hard
@@ -110,13 +114,16 @@ Please input a class seating chart:
 30 minutes
 ```
 ![generation](https://imgur.com/vKIBjSi.jpg)
+
 Hint1: \
-Recommend using bool array to you to solve this problem. \
-Such as, \
+To solve this problem, recommend using bool array to you. 
+For example, \
 true  :arrow_forward: infected \
-false :arrow_forward: not infected \
+false :arrow_forward: not infected 
+
 Hint2: \
-You maybe need to clone the seating chart in each generation. \
+You maybe need to clone the seating chart in each generation. 
+
 Hint3: \
 Boundaries of the 2-D array are problems. \
 You could use "if-else", \
