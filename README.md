@@ -19,7 +19,9 @@ Download [Xmind](https://www.xmind.net/), a full-featured mind mapping and brain
 │   └── Windows_VS_Code_Installation.pdf
 ├── exercise
 │   ├── answer
-│   │   └── ...
+│   │   ├── Week1_Answer.cs
+│   │   ├── ...
+│   │   └── WeekN_Answer.cs
 │   ├── week1.md
 │   ├── ...
 │   └── weekN.md
