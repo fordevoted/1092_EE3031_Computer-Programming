@@ -85,7 +85,7 @@ Function:
 
 ```
 static void Main(string[] args) {
-	something();
+    something();
 }
 ```
 
@@ -114,10 +114,10 @@ A comment is an explanation or description of the source code of the program. It
 
    ```
    /* Sample Multi line Comment
-   Line 1
-   Line 2
-   …
-   …
+   * Line 1
+   * Line 2
+   * …
+   * …
    */
    ```
 
