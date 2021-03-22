@@ -8,7 +8,7 @@ Download [Xmind](https://www.xmind.net/), a full-featured mind mapping and brain
 
 ## Homework
 
-According to the topic of your first programming homework assignmen, you can find inspiration from [zerojudge](https://zerojudge.tw/Problems?tabid=CONTEST#tab01) and [leetcode](https://leetcode.com/problemset/all/?difficulty=Easy). 
+For the topic of your first programming homework assignmen, you can find inspiration from [zerojudge](https://zerojudge.tw/Problems?tabid=CONTEST#tab01) and [leetcode](https://leetcode.com/problemset/all/?difficulty=Easy). 
 
 ## Repository Structure
 ```
