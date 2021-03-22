@@ -34,7 +34,7 @@ something();
 After: 
 
 ```
-	something();
+    something();
 ```
 
 To easily indent multiple lines, you can highlight the lines and press `Tab`. For example:
