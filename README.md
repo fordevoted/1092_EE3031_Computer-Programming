@@ -6,6 +6,10 @@ This is a repository to host programming assignments and exercises of the course
 
 Download [Xmind](https://www.xmind.net/), a full-featured mind mapping and brainstorming tool, designed to generate ideas, inspire creativity, brings efficiency both in work and life.
 
+## Homework
+
+The topic of your programming homework assignment can be probably inspired by [zerojudge](https://zerojudge.tw/Problems?tabid=CONTEST#tab01) and [leetcode](https://leetcode.com/problemset/all/?difficulty=Easy). 
+
 ## Repository Structure
 ```
 1092_EE3031_Computer-Programming
