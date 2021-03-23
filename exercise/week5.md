@@ -72,10 +72,10 @@ Sum of all integers equals to 31
 
 #### **Question: Spreading**
 
-Peko-virus, a horrible virus with strong infectiousness. \
-People infected by it, can't alive without saying "peko" ... 
+Peko-virus, is a horrible virus with strong infectiousness. \
+People were infected by it, can't alive without saying "peko" ... 
 
-In consideration of a class with two types of students, \
+In consideration of a class consists of two types of students, \
 0 : students who are not infected by peko-virus. \
 1 : students who are infected by peko-virus. \
 Every 10 minutes, 0 will be infected by nearby(:arrow_up:, :arrow_right:, :arrow_down:, :arrow_left:) 1. 
