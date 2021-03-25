@@ -8,7 +8,7 @@ Download [Xmind](https://www.xmind.net/), a full-featured mind mapping and brain
 
 ## Homework
 
-According to the topic of your first programming homework assignment, you can find inspiration from [zerojudge](https://zerojudge.tw/Problems?tabid=CONTEST#tab01) and [leetcode](https://leetcode.com/problemset/all/?difficulty=Easy). 
+To determine the topic of your first programming homework assignment, you can find inspiration from [zerojudge](https://zerojudge.tw/Problems?tabid=CONTEST#tab01) and [leetcode](https://leetcode.com/problemset/all/?difficulty=Easy). 
 
 The policy of this homework please reference 「[課程資訊](https://cool.ntu.edu.tw/courses/4605/assignments/syllabus)」>「成績評量方式」.
 
