@@ -12,7 +12,7 @@ To determine the topic of your first programming homework assignment, you can fi
 
 The policy of this homework please reference 「[課程資訊](https://cool.ntu.edu.tw/courses/4605/assignments/syllabus)」>「成績評量方式」. 
 
-The structure of homework is showed as following. If your homework includes more than one file, you may organize them and explain how to run your program.
+The structure of homework is showed as following. If your homework includes more than one source code file, you may explain how to run your program in your report.
 
 ```
 b01234567_hw1
