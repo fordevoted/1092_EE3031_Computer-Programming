@@ -10,7 +10,9 @@ Download [Xmind](https://www.xmind.net/), a full-featured mind mapping and brain
 
 To determine the topic of your first programming homework assignment, you can find inspiration from [zerojudge](https://zerojudge.tw/Problems?tabid=CONTEST#tab01) and [leetcode](https://leetcode.com/problemset/all/?difficulty=Easy). 
 
-The policy of this homework please reference 「[課程資訊](https://cool.ntu.edu.tw/courses/4605/assignments/syllabus)」>「成績評量方式」. The structure of homework is showed as following. If your homework includes more than one file, you may organize them and explain how to run your program.
+The policy of this homework please reference 「[課程資訊](https://cool.ntu.edu.tw/courses/4605/assignments/syllabus)」>「成績評量方式」. 
+
+The structure of homework is showed as following. If your homework includes more than one file, you may organize them and explain how to run your program.
 
 ```
 b01234567_hw1
@@ -20,7 +22,9 @@ b01234567_hw1
 └── report.pdf
 ```
 
-The presentation of your firt homework will be held on 4/9 (due day) in every TA group. It's about 5-10 minutes for each person. We expect that your presentation will be concise and understandable. (demonstration is unnecessary)
+The presentation of your firt homework will be held on 4/9 (due day) in every TA group. It's about 5-10 minutes for each person. 
+
+We expect that your presentation will be concise and understandable. (demonstration is unnecessary)
 
 ## Repository Structure
 ```
