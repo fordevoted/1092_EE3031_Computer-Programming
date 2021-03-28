@@ -9,7 +9,7 @@ static void Easy(){
                 for(int j = 0; j < fruits.Length; j++){
                     Console.Write("{0, -5}", fruits[j]+bases[i]);
                     // {0, -n} : 印出第0個Object, 且印出總長度為靠左5個字元
-                    // 若將這部分改寫為，存入預先宣告的Menu array，後再印出。
+                    // 若將這部分改寫為，存入預先宣告的Menu array，再用另一個for-for loop印出。
                     // 就可以根據最大資料長度做印出的排版。例如：
                     // Menu[i, j] = "黑金剛蓮霧優酪乳";
                     // int L_max = 0; 
