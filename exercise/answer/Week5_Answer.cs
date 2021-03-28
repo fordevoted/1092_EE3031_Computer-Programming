@@ -47,8 +47,8 @@ static void Easy(){
         static void Hard(){
             Console.WriteLine("Please input size of class seating chart:");
             string[] input = Console.ReadLine().Split(" ");
-            int rows = int.Parse(input[0]), cols = int.Parse(input[1]);
             // 將 input 分為 {number of row, number of column} 的字串陣列
+            int rows = int.Parse(input[0]), cols = int.Parse(input[1]);
             bool[,] seating_chart = new bool[rows + 2, cols + 2];
             // 宣告座位表， 此處的 +2 可以讓我們懶的寫邊界判斷
             // In bool array, default is false
@@ -94,7 +94,7 @@ static void Easy(){
                             seating_chart[row, col + 1];
                         }
                     }
-                }
+                }// End of dealing with spreading
                 seating_chart = chart_copy; // 更新感染的狀況
-            }
+            }// End of time counter (for-loop)
         }// End of Hard
