@@ -85,7 +85,7 @@ For this program, you need to judge if a baseball player can catch the fly ball.
 
 The coaching team would like to input maximum horizontal distance NX, maximum vertical distance NY, and baseball player running speed V in the beginning. Output if the baseball player can catch ball, and draw the ball falling trajectory and player running locus.
 
-Plese unifromly random initial velocity of ball v0 in range [0.5, 5.0], and sample initial height of ball randomly from normal distribution (mean = <img src="http://www.sciweavers.org/tex2img.php?eq=%5Cdfrac%7B3%7D%7B4%7D%5Ccdot%20NY&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="\dfrac{3}{4}\cdot NY" width="53" height="43" />, std = <img src="http://www.sciweavers.org/tex2img.php?eq=%5Cdfrac%7B3%7D%7B4%7D%5Ccdot%20NY&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="\dfrac{3}{4}\cdot NY" width="53" height="43" />)  
+Plese unifromly random initial velocity of ball v0 in range [0.5, 5.0], and sample initial height of ball randomly from normal distribution (mean = <img src="http://www.sciweavers.org/tex2img.php?eq=%5Cdfrac%7B3%7D%7B4%7D%5Ccdot%20NY&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="\dfrac{3}{4}\cdot NY" width="53" height="43" />, std = <img src="http://www.sciweavers.org/tex2img.php?eq=%5Cdfrac%7B1%7D%7B12%7D%5Ccdot%20NY&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="\dfrac{1}{12}\cdot NY" width="64" height="43" />)  
 
 Note that both initial x axis of ball and player are 0. Print message "Catch Catch the Ball!" if player catch ball, otherwise, print "Cannot Catch the Ball!"
 
