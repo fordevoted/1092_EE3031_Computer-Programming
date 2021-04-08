@@ -85,14 +85,14 @@ For this program, you need to judge if a baseball player can catch the fly ball.
 
 The coaching team would like to input maximum horizontal distance NX, maximum vertical distance NY, and baseball player running speed V in the beginning. Output if the baseball player can catch ball, and draw the ball falling trajectory and player running locus.
 
-Plese unifromly random initial velocity of ball v0 in range [0.5, 8.0], and sample initial height of ball randomly from normal distribution (mean = <img src="http://www.sciweavers.org/tex2img.php?eq=%5Cdfrac%7B3%7D%7B4%7D%5Ccdot%20NY&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="\dfrac{3}{4}\cdot NY" width="53" height="43" />, std = <img src="http://www.sciweavers.org/tex2img.php?eq=%5Cdfrac%7B1%7D%7B12%7D%5Ccdot%20NY&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="\dfrac{1}{12}\cdot NY" width="64" height="43" />)  
+Plese unifromly random initial velocity of ball v0 in range [0.5, 5.0], and sample initial height of ball randomly from normal distribution (mean = <img src="http://www.sciweavers.org/tex2img.php?eq=%5Cdfrac%7B3%7D%7B4%7D%5Ccdot%20NY&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="\dfrac{3}{4}\cdot NY" width="53" height="43" />, std = <img src="http://www.sciweavers.org/tex2img.php?eq=%5Cdfrac%7B1%7D%7B12%7D%5Ccdot%20NY&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="\dfrac{1}{12}\cdot NY" width="64" height="43" />)  
 
 Note that both initial x axis of ball and player are 0. Print message "Catch Catch the Ball!" if player catch ball, otherwise, print "Cannot Catch the Ball!"
 
 Catch ball is that `player x >= ball x, when y = 0.`
 
-'o' present the ball.
-'I' present the baseball player.
+- 'o' present the ball.
+- 'I' present the baseball player.
 
 
 Utilize 4 functions to complete this program:
@@ -205,16 +205,17 @@ Follow to previous problem, in this program, you need to allow user to control b
 The coaching team would like to input maximum horizontal distance NX, maximum vertical distance NY in the beginning. Allow user control baseball player action. Output if the baseball player catch ball, and draw the current position of ball and player each time unit.
 
 keyboard input
-`W`, player jump 1 unit along y axis, then return original position at time *t+1*.
-`D`, player run forward 1 unit along x axis.
-`A`, player run backward 1 unit along x axis.
-`S`, player diving catch, forward 2 unit along x axis, then freeze at time *t+1*.
+- `Space`, player stand still.
+- `W`, player jump 1 unit along y axis, then return original position at time *t+1*.
+- `D`, player run forward 1 unit along x axis.
+- `A`, player run backward 1 unit along x axis.
+- `S`, player diving catch, forward 2 unit along x axis, then freeze at time *t+1*.
 
 please print out 
-"Nice play! Out." if player use diving catch to cath the ball.
-"Out." if player catch the ball without diving catch.
-"Hit!" if player cannot catch the ball.
-"Home Run!!" if the ball reach the bound of x axis without reach ground yet.
+- "Nice play! Out." if player use diving catch to cath the ball.
+- "Out." if player catch the ball without diving catch.
+- "Hit!" if player cannot catch the ball.
+- "Home Run!!" if the ball reach the bound of x axis without reach ground yet.
 
 Catch ball means `player x = ball x, and player y = ball y`
 
