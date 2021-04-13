@@ -9,7 +9,7 @@ namespace MidtermReview4
     }
     class Program
     {
-        static void Main(string[] args)
+        static void Main (string[] args)
         {
             Prisoner A = new Prisoner();
             Prisoner B = new Prisoner();
@@ -24,17 +24,17 @@ namespace MidtermReview4
                 Game(ref A, ref B, round);                
             }
         }
-        static void ScoreBoard(ref Prisoner a, ref Prisoner b, int round)
+        static void ScoreBoard (ref Prisoner a, ref Prisoner b, int round)
         {
             Console.WriteLine("Round {0, -4}: A {1, -9}, score: {2, -4} | B {3, -9}, score: {4, -4}",
                               round, a.LastChoice, a.score, b.LastChoice, b.score);
         }
-        static void Game(ref Prisoner a, ref Prisoner b, int round)
+        static void Game (ref Prisoner a, ref Prisoner b, int round)
         {
-            switch(a.LastChoice)
+            switch (a.LastChoice)
             {
                 case (Decision.COOPERATE):
-                if(b.LastChoice == Decision.COOPERATE)
+                if (b.LastChoice == Decision.COOPERATE)
                 {   // win-win
                     a.score += 3;
                     b.score += 3;
@@ -45,7 +45,7 @@ namespace MidtermReview4
                 }
                 break;
                 case (Decision.BETRAY):
-                if(b.LastChoice == Decision.COOPERATE)
+                if (b.LastChoice == Decision.COOPERATE)
                 {   // a win
                     a.score += 5;
                 }
@@ -69,12 +69,12 @@ namespace MidtermReview4
             public Decision LastChoice = Decision.COOPERATE;
             // Initial Decision is COOPERATE,
             // also you can assign it as BETRAY.
-            public void SetFRate(int p)
+            public void SetFRate (int p)
             {
                 // forgive rate : p %
                 ForgiveRate = p;
             }
-            public void SetSeed(string PrisonerName)
+            public void SetSeed (string PrisonerName)
             {
                 Console.WriteLine("Please input seed of {0} (integer 0~999)", PrisonerName);
                 while (true) {
@@ -96,7 +96,7 @@ namespace MidtermReview4
                     LastChoice = Decision.BETRAY;
                     break;
                     case (Decision.BETRAY):
-                    if((rnd.Next()%100)<ForgiveRate)
+                    if ((rnd.Next()%100)<ForgiveRate)
                     {
                         LastChoice = Decision.COOPERATE;
                     }
