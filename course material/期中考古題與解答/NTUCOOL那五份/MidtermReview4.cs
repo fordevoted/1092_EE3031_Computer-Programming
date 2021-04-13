@@ -76,7 +76,7 @@ namespace MidtermReview4
             }
             public void SetSeed (string PrisonerName)
             {
-                Console.WriteLine("Please input seed of {0} (integer 0~999)", PrisonerName);
+                Console.WriteLine("Please input seed of {0}", PrisonerName);
                 while (true) {
                     try {
                         int seed = int.Parse(Console.ReadLine());
@@ -84,7 +84,7 @@ namespace MidtermReview4
                         break;
                     }
                     catch {
-                        Console.WriteLine("Invalid input! Please input seed of {0} (integer 0~999)", PrisonerName);
+                        Console.WriteLine("Invalid input! Please input seed of {0}", PrisonerName);
                     }
                 }
             }
