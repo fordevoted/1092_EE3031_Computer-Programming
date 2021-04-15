@@ -1,5 +1,5 @@
 using System;
-
+// 程式說明請參考week8_r09941007
 namespace MidtermReview4
 {
     enum Decision
