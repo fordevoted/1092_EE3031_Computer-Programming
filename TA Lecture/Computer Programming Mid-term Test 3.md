@@ -17,6 +17,7 @@
 
    你可以使用下列已準備好的函式 也可以不用而自行撰寫
 
+   ```
    // 顯示棋盤及得分
    // 參數說明:
    // board代表棋盤
@@ -24,9 +25,6 @@
    // 其元素例如ix[5] = 3,jx[5] = 2表示第6顆地雷位在board[3,2]
    // score代表使用者得分
    // gameOver代表遊戲是否已經結束
-   static void Display(char[,] board, int[] ix, int[] jx, int score, bool gameOver)
-
-   ```
    static void Display(char[,] board, int[] ix, int[] jx, int score, bool gameOver){
    	int m;
    	int i;
