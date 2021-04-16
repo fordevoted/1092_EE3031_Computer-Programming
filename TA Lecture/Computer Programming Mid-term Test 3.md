@@ -76,7 +76,8 @@
 
 2. 程式流程圖
 
-   ![圖片1](https://user-images.githubusercontent.com/8816002/114969094-41c52480-9eaa-11eb-81f3-60a6f81a7a47.png)
+   ![000](https://user-images.githubusercontent.com/8816002/114969164-6caf7880-9eaa-11eb-8b68-4aeadd842ca1.jpg)
+
 
 
 3. 蒐集程式所需變數 (因人而異)
