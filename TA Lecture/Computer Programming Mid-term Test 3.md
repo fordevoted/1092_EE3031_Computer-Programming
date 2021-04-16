@@ -7,11 +7,13 @@
 
    使用者輸入座標，代表要翻的方格位置。若沒碰到地雷，清除螢幕，重新顯示棋盤及得分 。假設使用者翻開第 0 列第 0 行方格，且未遇地雷，則畫面顯示 如下：
 
-   ![image-20210416105205109](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20210416105205109.png)
+   ![圖片1](https://user-images.githubusercontent.com/8816002/114969072-3540cc00-9eaa-11eb-9055-2dc0764befc8.jpg)
+
 
    圖中可見翻出之方格以圈號表示並秀出得 1 分 。如此反覆進行，直到遇見地雷，遊戲結束，主控台螢幕 顯示所有地雷 以星號表出 及已、未翻方格 與得分 。 一種可能 畫面如下：
 
-   ![image-20210416105152313](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20210416105152313.png)
+   ![圖片2](https://user-images.githubusercontent.com/8816002/114969083-3b36ad00-9eaa-11eb-81fa-9c6c013d6075.jpg)
+
 
    你可以使用下列已準備好的函式 也可以不用而自行撰寫
 
@@ -74,7 +76,8 @@
 
 2. 程式流程圖
 
-   ![圖片1](C:\Users\ASUS\OneDrive\桌面\圖片1.png)
+   ![圖片1](https://user-images.githubusercontent.com/8816002/114969094-41c52480-9eaa-11eb-81f3-60a6f81a7a47.png)
+
 
 3. 蒐集程式所需變數 (因人而異)
 
