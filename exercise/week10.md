@@ -109,10 +109,10 @@ Finally, print out the result.
 
 ```
 Please input the number of players: 3
-player1: Spades 12, player2: Diamond 6, player3: Spades 9
-player1 get 1 point
+player1: Club K, player2: Club A, player3: Heart 2
+player3 get 1 point
 ...
-player1: Diamond 11, player2: Spades 10, player3: Club 1
-player2 get 1 point
-player1 wins with score=8
+player1: Diamond A, player2: Club 7, player3: Spades 2
+player3 get 1 point
+player3 wins with score=10
 ```
