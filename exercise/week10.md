@@ -1,4 +1,4 @@
-# Week10 Exercise
+# Week 10 Exercise
 
 ## Easy
 #### Question: Create a Class
@@ -23,14 +23,14 @@ Please input your grade: 1
 1. By default, all members of a class are `private` if you don't specify an access modifier.
 2. Two ways to use `set` and `get`. 
 
-```
+```c#
 public string Name {
     get { return name; }
     set { name = value; } 
 }
 ```
 
-```
+```c#
 public string Name {
     get => name;
     set => name = value;
@@ -39,10 +39,10 @@ public string Name {
 
 ## Medium
 
-#### Question: Big Two(大老二)-basic
-Create a `enum` type called `enumColor` including ♣ [(clubs)](https://en.wikipedia.org/wiki/Clubs_(suit)) , ♦ [(diamonds)](https://en.wikipedia.org/wiki/Diamonds_(suit)) , ♥ [(hearts)](https://en.wikipedia.org/wiki/Hearts_(suit)), ♠ [(spades)](https://en.wikipedia.org/wiki/Spades_(suit)). 
+#### Question: Big Two(大老二)-dealing(發牌)
+Create a `enum` type called `Suits` including ♣ [(Club)](https://en.wikipedia.org/wiki/Clubs_(suit)) , ♦ [(Diamond)](https://en.wikipedia.org/wiki/Diamonds_(suit)) , ♥ [(Heart)](https://en.wikipedia.org/wiki/Hearts_(suit)), ♠ [(Spade)](https://en.wikipedia.org/wiki/Spades_(suit)). 
 
-Create a class called `Card` including private variables  `int point` and `enumColor color` and public member functions with `set` and `get`. 
+Create a class called `Card` including private variables  `int point` and `Suits suit` and public member functions with `set` and `get`. 
 
 Create a class called `Player` including private array of objects  `Card[] card` and use a constructor to initialize the number of `card` (default = 13). 
 
@@ -50,13 +50,13 @@ Finally, create an object of `Player` called `John`, and use method `AddCard` to
 
 Part of code: 
 
-```
+```c#
 class Player
 {
 	Card[] card;
 	public Player(){}
 	public Player(int N){}
-	public void AddCard(int point, enumColor color){}
+	public void AddCard(int point, Suits suit){}
 	public void Show(){}
 }
 ```
@@ -69,7 +69,7 @@ Spades 12, Diamond 6, Spades 9, Heart 11, Diamond 11, Spades 10, Club 1, Diamond
 #### Hint
 1. something about `enum`. 
 
-```
+```c#
 enum MyType {
 	phone = 1,
 	notebook = 2,
@@ -94,13 +94,13 @@ void Main()
 
 Please implement a single-hand Big Two game.
 
-First, randomly deal a deck of cards to players (cannot repeat), and discard the remainder. 
+First, randomly deal a deck of cards to players (cannot repeat), and discard the remainder if the number of players cannot divide a deck. 
 
-In each turn, every player will randomly choose a card (cannot reuse). The player with max card-rank will get 1 point.
+In each turn, every player will randomly choose a card (cannot reuse). Someone with max card-rank will get 1 score.
 
 ```
-Card rank: 2 A K Q J 10 9 8 7 6 5 4 3
-Color rank: ♠(spades) ♥(hearts) ♦(diamonds) ♣(clubs)
+Point rank: 2 A K Q J 10 9 8 7 6 5 4 3
+Suit rank: ♠(spades) ♥(hearts) ♦(diamonds) ♣(clubs)
 ```
 
 Finally, print out the result.
@@ -110,9 +110,13 @@ Finally, print out the result.
 ```
 Please input the number of players: 3
 player1: Club K, player2: Club A, player3: Heart 2
-player3 get 1 point
+player3 get 1 score
 ...
 player1: Diamond A, player2: Club 7, player3: Spades 2
-player3 get 1 point
-player3 wins with score=10
+player3 get 1 score
+player3 wins with score 10
 ```
+
+#### Hint
+
+1. refer to *BlackJack_0_0_4* in the lecture, CH9.
