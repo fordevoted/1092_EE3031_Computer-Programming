@@ -28,24 +28,7 @@ The presentation of your first homework will be held on 4/9 (due day) in every T
 
 We expect that your presentation will be concise and understandable. (demonstration is unnecessary)
 
-
-| order | group1    | group2    | group3    | group4    |
-| --------- | --------- | --------- | --------- | --------- |
-| 1     | 10711042  | 40640125s | 109051358 | b06101016 |
-| 2     | b06701241 | b06705049 | b07501124 | b07704043 |
-| 3     | b07704059 | b07901062 | b08201037 | b08202035 |
-| 4     | b08303075 | b08502001 | b08502152 | b08507008 |
-| 5     | b08507016 | b08507032 | b08702011 | b08702039 |
-| 6     | b09107015 | b09201020 | b09203010 | b09204038 |
-| 7     | b09209023 | b09303102 | b09401130 | b09502033 |
-| 8     | b09502149 | b09602048 | b09608025 | b09701203 |
-| 9     | b09703009 | b09703067 | b09703082 | b10630315 |
-
-
 The presenter can use your own laptop to show your slides, and the audience can download [slides](https://github.com/fordevoted/1092_EE3031_Computer-Programming/tree/main/homework/HW1) from each group. Presentation position of each group is showed as following:
-
-![114072916-4f404480-98d5-11eb-8363-f89223fd0dcf](https://user-images.githubusercontent.com/8816002/114126793-b4268980-992b-11eb-9337-bb1121304a46.png)
-
 
 ## Repository Structure
 ```
