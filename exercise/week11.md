@@ -1,7 +1,7 @@
 # Week 11 Exercise
 
 ## Preface
-If you think the structure of the [given code](https://github.com/giginepuran/week11/tree/main/week11_library), is not suitable for these questions. \
+If you think the structure of the [given code](https://github.com/fordevoted/1092_EE3031_Computer-Programming/tree/main/exercise/week11_Library), is not suitable for these questions. \
 You are encouraged to edit it or create your original library!
 
 ## Easy
@@ -10,7 +10,7 @@ You are encouraged to edit it or create your original library!
 First, choose your favorite picture, and go to this [site](https://www.text-image.com/convert/ascii.html) \
 transfer it to an AsciiArt. 
 
-In this question, you :rotating_light:need:rotating_light: to read the [given code](https://github.com/giginepuran/week11/tree/main/week11_library), and finish the missions below:
+In this question, you :rotating_light:need:rotating_light: to read the [given code](https://github.com/fordevoted/1092_EE3031_Computer-Programming/tree/main/exercise/week11_Library), and finish the missions below:
 1. Put your AsciiArt into the AsciiArt.cs file. 
 2. Create an Object by class-Token, which contains two properties - name & art, the art must be your AsciiArt above.
 3. Use the ShowInfo(), to print your original object's info.
