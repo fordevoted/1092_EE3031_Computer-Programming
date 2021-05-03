@@ -44,7 +44,7 @@ Defence, needs to get the AttackPoint and make "int" damage to Object's HP. \
 The formulas between each variable shown as below: 
 
 CriticalRate = Token.Luc \
-AttacPoint = Token.Atk * isCritical?2:1 \
+AttackPoint = Token.Atk * isCritical?2:1 \
 Damage = AttackPoint/Token.Def 
 
 
