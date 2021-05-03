@@ -11,7 +11,7 @@ using System;
  * It's consume lots of memory and maybe never use it.
  *
  * If you want to make RPG as your homework or final project,
- * recommend you to learning "How to read or write data with different file format."
+ * recommend you to learn "How to read or write data with different file format."
  * In this case, all of the AsciiArt can be saved as blabla_Art.txt,
  * week11 practices are focus on the class-using & creation,
  * you can try to save all elements in your game as different file. (such as: txt, bmp, wav ...)
