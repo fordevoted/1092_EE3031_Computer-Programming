@@ -6,13 +6,13 @@ using System;
  */
 /* For a RPG,
  * pratically, we "never" declare the picture, art, sound etc... as static
- * static means: the data will read into memory ,
+ * static means: the data will be read into memory ,
  * when program starting "EVERY TIME"!
  * It's consume lots of memory and maybe never use it.
  *
  * If you want to make RPG as your homework or final project,
- * recommend you to learning "How to read or write data with a file with different file format."
- * In this case, all of the AsciiArt can save as many blabla_Art.txt,
+ * recommend you to learning "How to read or write data with different file format."
+ * In this case, all of the AsciiArt can be saved as blabla_Art.txt,
  * week11 practices are focus on the class-using & creation,
  * you can try to save all elements in your game as different file. (such as: txt, bmp, wav ...)
  */
