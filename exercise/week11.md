@@ -43,7 +43,7 @@ Token BSMF = new Token(ld.Txt2AsciiString("NTULOGO.txt"));
 Now, you know how to create an Object, \
 but there're only few properties in class - Token.
 
-1. Create two functions - Attact & Deffence into class - Token \
+1. Create two functions - Attack & Defence into class - Token \
    Attack,  needs to return "int" AttackPoint \
    Defence, needs to get the AttackPoint and make "int" damage to Object's HP. \
    You can write the formulas of AttackPoint and damage by you want.
