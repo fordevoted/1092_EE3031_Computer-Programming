@@ -18,7 +18,7 @@ You are encouraged to edit it or create your original library.
 #### Question: Create an Object & Print its properties
 
 1. Choose your favorite picture, go to this [site](https://www.text-image.com/convert/ascii.html), transfer it to an AsciiArt. 
-2. Put your AsciiArt into the AsciiArt.cs file. 
+2. Save AsciiArt in any way you prefer. 
 3. Create an Object by class-Token, which contains two properties - name & art, the art must be your AsciiArt above.
 4. Use the ShowInfo(), to print your original object's info.
 
