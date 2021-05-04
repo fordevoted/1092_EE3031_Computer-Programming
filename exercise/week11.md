@@ -22,56 +22,33 @@ You are encouraged to edit it or create your original library.
 3. Create an Object by class-Token, which contains two properties - name & art, the art must be your AsciiArt above.
 4. Use the ShowInfo(), to print your original object's info.
 
-#### Example1:
-1. Convert a picture to AsciiArt\
-![step1](https://imgur.com/33be3TT.jpg)
-![step2](https://imgur.com/n06tUPY.jpg)
-2. Learn how to create an Object & Learn how to use ShowInfo in it. \
-![step3](https://imgur.com/0Ru1Aax.jpg)
-#### Example2:
-![SevenSkyEmperor](https://imgur.com/W0COZlc.jpg)
-
 **Hint:** 
 ```C#
 LibraryDealer ld = new LibraryDealer("your library path");
 Token BSMF = new Token(ld.Txt2AsciiString("NTULOGO.txt"));
 ```
 
-## Medium1
-#### Question: Make your object could Attack & Defence
+#### Example1:
+1. Convert a picture to AsciiArt\
+![step1](https://imgur.com/33be3TT.jpg)
+![step2](https://imgur.com/n06tUPY.jpg)
+2. Create an object & use ShowInfo in it. \
+![step3](https://imgur.com/0Ru1Aax.jpg)
+#### Example2:
+![SevenSkyEmperor](https://imgur.com/W0COZlc.jpg)
+
+## Medium
+#### Question: Big War
 
 Now, you know how to create an Object, \
 but there're only few properties in class - Token.
 
-Try to create two functions - Attact & Deffence into class - Token 
-
-Attack,  needs to  return "int" AttackPoint \
-Defence, needs to get the AttackPoint and make "int" damage to Object's HP. \
-The formulas between each variable shown as below: 
-
-CriticalRate = Token.Luc \
-AttackPoint = Token.Atk * isCritical?2:1 \
-Damage = AttackPoint/Token.Def 
-
-
-In this question, you need to create a boring object, \
-and make it attack itself till it's HP becomes to 0.
-
-#### Example1:
-![result_Medium1](https://imgur.com/o59c4I7.jpg)
-#### Example2:
-![result_Medium2](https://imgur.com/b5WLTCp.jpg)
-
-## Medium2
-#### Question: Big War
-
-So far, you have learned, \
-How to create an object, \
-How to create a function in class. \
-How to get&modify properties in object. 
-
-Now, create a function, \
-which will read two objects, and make them attack each other till someone's HP becomes to 0.
+1. Create two functions - Attact & Deffence into class - Token \
+   Attack,  needs to return "int" AttackPoint \
+   Defence, needs to get the AttackPoint and make "int" damage to Object's HP. \
+   You can write the formulas of AttackPoint and damage by you want.
+2. Create a function outside class \
+   This function will read two objects, and make them attack to each other till someone's HP becomes to 0.
 
 #### Example1:
 ![result_Hard1](https://imgur.com/aX15AB2.jpg)
@@ -79,12 +56,14 @@ which will read two objects, and make them attack each other till someone's HP b
 ![result_Hard2](https://imgur.com/qhASwgf.jpg)
 
 ## Hard
-#### Question: Create Enemy by Inheritance from Token
+#### Question: Inheritance
 
-Try to finish the given code - class Enemy{...} in MyClass.cs, \
-make it debut and say something.
+1. Create Enemy inherit from Token
+2. Try to add some properties/ functions in class-Enemy
 
+The examples below, override the function-ShowInfo(), \
+use object.ShowInfo() to show the art of object, and say something.
 #### Example1:
-![Hard1](https://imgur.com/5INBjQo.jpg)
+![Hard1](https://imgur.com/5INBjQo.jpg) \
 #### Example2:
 ![Hard2](https://imgur.com/TKeZWJO.jpg)
