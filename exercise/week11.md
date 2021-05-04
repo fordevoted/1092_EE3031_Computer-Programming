@@ -47,7 +47,7 @@ but there're only few properties in class - Token.
    Attack,  needs to return "int" AttackPoint \
    Defence, needs to get the AttackPoint and make "int" damage to Object's HP. \
    You can write the formulas of AttackPoint and damage by you want.
-2. Create a function outside class \
+2. Create a function outside class-Token \
    This function will read two objects, and make them attack to each other till someone's HP becomes to 0.
 
 #### Example1:
