@@ -36,11 +36,14 @@ The presenter can use your own laptop to show your slides, and the audience can 
 ├── TA Lecture
 │   └── ...
 ├── course material
-│   ├── Course.pdf
-│   ├── MAC_VS_Code_Installation.pdf
+│   ├── 期中考古題與解答
+│   │   └── ...
+│   ├── 期末考古題與解答
+│   │   └── ...
+│   ├── Common_VSC_Problem.md
 │   ├── Programming Note.md
 │   ├── Project Creation.md
-│   └── Windows_VS_Code_Installation.pdf
+│   └── settings.json
 ├── exercise
 │   ├── answer
 │   │   ├── Week1_Answer.cs
