@@ -23,7 +23,7 @@ static void Main(string[] args)
 ```C#
 static void Main(string[] args)
 {
-    string path = @"C:\Users\clay0\EE3031\week11\test\AsciiArt";
+    string path = @"/home/TA/EE3031/week11/AsciiArt/";
     LibraryDealer ld = new LibraryDealer(path);
     while(true)
     {
