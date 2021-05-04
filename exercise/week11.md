@@ -1,35 +1,41 @@
 # Week 11 Exercise
 
 ## Preface
+In these questions, you :rotating_light:need:rotating_light: to read the [given code](https://github.com/fordevoted/1092_EE3031_Computer-Programming/tree/main/exercise/week11_Library). \
+Learn how to use them.
+1. AsciiArt/... \
+   some sample art.txt
+2. Tools.cs \
+   You can use it to write/read your txt file
+3. MyClass.cs \
+   Sample usage of class in RPG.
+   
 If you think the structure of the [given code](https://github.com/fordevoted/1092_EE3031_Computer-Programming/tree/main/exercise/week11_Library), is not suitable for these questions. \
-You are encouraged to edit it or create your original library!
+You are encouraged to edit it or create your original library.
+
 
 ## Easy
 #### Question: Create an Object & Print its properties
 
-First, choose your favorite picture, and go to this [site](https://www.text-image.com/convert/ascii.html) \
-transfer it to an AsciiArt. 
-
-In this question, you :rotating_light:need:rotating_light: to read the [given code](https://github.com/fordevoted/1092_EE3031_Computer-Programming/tree/main/exercise/week11_Library), and finish the missions below:
-1. Put your AsciiArt into the AsciiArt.cs file. 
-2. Create an Object by class-Token, which contains two properties - name & art, the art must be your AsciiArt above.
-3. Use the ShowInfo(), to print your original object's info.
-
-:rotating_light:NOTICE:rotating_light: \
-You can use the given function - Ascii2StrDeclare in AsciiConverter.cs. \
-It will help you to create an AsciiArt string \
-![How2Use](https://imgur.com/5MbwoYz.jpg) \
-^Reference: https://www.asciiart.eu/comics/batman
+1. Choose your favorite picture, and go to this [site](https://www.text-image.com/convert/ascii.html), transfer it to an AsciiArt. 
+2. Put your AsciiArt into the AsciiArt.cs file. 
+3. Create an Object by class-Token, which contains two properties - name & art, the art must be your AsciiArt above.
+4. Use the ShowInfo(), to print your original object's info.
 
 #### Example1:
-1. Go to the [site](https://www.text-image.com/convert/ascii.html), and choose your favorite picture. \
+1. Convert a picture to AsciiArt\
 ![step1](https://imgur.com/33be3TT.jpg)
-2. Convert it to the AsciiArt & Put it into AsciiArt.cs. \
 ![step2](https://imgur.com/n06tUPY.jpg)
-3. Learn how to create an Object & Learn how to use ShowInfo in it. \
+2. Learn how to create an Object & Learn how to use ShowInfo in it. \
 ![step3](https://imgur.com/0Ru1Aax.jpg)
 #### Example2:
 ![SevenSkyEmperor](https://imgur.com/W0COZlc.jpg)
+
+**Hint:** 
+```C#
+LibraryDealer ld = new LibraryDealer("your library path");
+Token BSMF = new Token(ld.Txt2AsciiString("NTULOGO.txt"));
+```
 
 ## Medium1
 #### Question: Make your object could Attack & Defence
