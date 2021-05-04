@@ -4,17 +4,8 @@ using System;
  * The references of Arts below, 
  * were comment after each Art.
  */
-/* For a RPG,
- * pratically, we "never" declare the picture, art, sound etc... as static
- * static means: the data will be read into memory ,
- * when program starting "EVERY TIME"!
- * It's consume lots of memory and maybe never use it.
- *
- * If you want to make RPG as your homework or final project,
- * recommend you to learn "How to read or write data with different file format."
- * In this case, all of the AsciiArt can be saved as blabla_Art.txt,
- * week11 practices are focus on the class-using & creation,
- * you can try to save all elements in your game as different file. (such as: txt, bmp, wav ...)
+ 
+/* 如果你不想用檔案讀寫，可以直接用這邊宣告好的字串
  */
 namespace test
 {
