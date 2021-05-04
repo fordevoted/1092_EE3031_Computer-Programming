@@ -1,5 +1,4 @@
 using System;
-using System.Collections.Generic;
 /* Author: TA of NTU 109-2 EE3031 
  * Contact: r09941007@g.ntu.edu.tw
  * Feel free for using or modifying it!
@@ -52,12 +51,11 @@ namespace test
             this.status.ShowStatus();
         }
         public int Attack()
-        {// Try to write it by yourself
+        {// DIY
             return 0;
         }
         public void Defence(int AttackPoint)
-        {// Try to write it by yourself
-            
+        {// DIY
         }
     }
 
@@ -101,26 +99,14 @@ namespace test
 
     class Enemy:Token
     {// Inherit
-        //private ...
         public Enemy()
-        {// ... Try to write it by yourself
-            
-            
-            
-            
-            
+        {// DIY
         }
         public Enemy(string Art, string Name, string Quote)
-        {// ... Try to write it by yourself
-            
-            
-            
-            
-            
+        {// DIY
         }
-        public void Debut()
-        {// ... Try to write it by yourself
-            
+        public override void ShowInfo()
+        {// DIY, or create another
         }
     }
 }
