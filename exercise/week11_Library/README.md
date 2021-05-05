@@ -7,7 +7,7 @@ static void Main(string[] args)
     LibraryDealer ld = new LibraryDealer(path);
     while(true)
     {
-    Console.WriteLine("filename? (ex: 123.txt) (input \"-1\" to break)");
+        Console.WriteLine("filename? (ex: 123.txt) (input \"-1\" to break)");
         string filename = Console.ReadLine();
         if(filename == "-1") break;
         ld.Ascii2Txt(filename);
@@ -27,7 +27,7 @@ static void Main(string[] args)
     LibraryDealer ld = new LibraryDealer(path);
     while(true)
     {
-    Console.WriteLine("filename? (ex: 123.txt) (input \"-1\" to break)");
+        Console.WriteLine("filename? (ex: 123.txt) (input \"-1\" to break)");
         string filename = Console.ReadLine();
         if(filename == "-1") break;
         Console.WriteLine(ld.Txt2AsciiString(filename));
