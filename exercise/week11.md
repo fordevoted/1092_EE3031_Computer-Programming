@@ -25,7 +25,7 @@ You are encouraged to edit it or create your original library.
 **Hint:** 
 ```C#
 LibraryDealer ld = new LibraryDealer("your library path");
-Token BSMF = new Token(ld.Txt2AsciiString("NTULOGO.txt", name));
+Token BSMF = new Token(ld.Txt2AsciiString("NTULOGO.txt"), name);
 ```
 
 #### Example1:
