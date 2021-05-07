@@ -26,14 +26,14 @@ namespace test
             this.art = "";
             this.name = "";
             this.status = new Status();
-            rnd = new Random();
+            this.rnd = new Random();
         }
         public Token(string Art, string Name)
         {// Constructors
             this.art = Art;
             this.name = Name;
             this.status = new Status();
-            rnd = new Random();
+            this.rnd = new Random();
         }
         public string Art
         {// Auto-implemented property:
@@ -68,7 +68,7 @@ namespace test
         private Random rnd;
         public Status()
         {// Constructors
-            rnd = new Random();
+            this.rnd = new Random();
             this.hp  = rnd.Next() % 50  + 50; 
             this.atk = rnd.Next() % 100 + 200;
             this.def = rnd.Next() % 30  + 1;
