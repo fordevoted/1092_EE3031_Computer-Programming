@@ -46,7 +46,7 @@ namespace week11_ans
                  * 利用添加不同的properties給物件，
                  * 來自創各種遊戲的戰鬥系統。
                  * 例如：Status若再加入int spd 代表腳色的速度能力值，
-                 * 那我們這邊BigWar函式，就可以根據物件的spd決定誰先攻。
+                 * 那我們這邊BigWar函式，就可以根據物件.status.spd決定誰先攻。
                  */
                 while(true)
                 {
