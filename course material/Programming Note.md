@@ -128,7 +128,7 @@ class Program{
 
 Methods normally belongs to a class, and they define how an object of a class behaves.
 
-Just like with fields, you can access methods with the dot syntax. However, note that the method must be `public`. And remember that we use the name of the method followed by two parentheses ()` and a semicolon `;` to call (execute) the method:
+Just like with fields, you can access methods with the dot syntax. However, note that the method must be `public`. And remember that we use the name of the method followed by two parentheses `()` and a semicolon `;` to call (execute) the method:
 
 ```c#
 class Student{
@@ -145,6 +145,35 @@ class Program{
         Console.Write("Please input your name: ");
         Kevin.name = Console.ReadLine();
         Kevin.Show();		// Call the method
+    }
+}
+```
+
+## Constructors
+
+A constructor is a **special method** that is used to initialize objects. The advantage of a constructor, is that it is called when an object of a class is created. It can be used to set initial values for fields:
+
+```c#
+class Card{
+    int point;
+    Suits suit;
+    public int Point { get => point; set => point = value; }
+    public Suits Suit { get => suit; set => suit = value; }
+}
+class Player{
+    Card[] card;
+    public Player(){
+        card = new Card[13];
+    }
+    public Player(int maxN){
+        card = new Card[maxN];
+    }
+}
+class Program{
+    static void Main(string[] args)
+    {
+        int N = int.Parse(Console.ReadLine());
+        Player John = new Player(N);
     }
 }
 ```
