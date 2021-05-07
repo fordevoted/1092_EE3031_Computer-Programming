@@ -125,6 +125,7 @@ namespace week11_ans
 
     class Enemy:Token
     {// 繼承
+        // 多添加一個property-Line, 我這邊是用它來 代表敵人登場時的登場對話
         private string Line;
         public Enemy()
         {
@@ -144,6 +145,7 @@ namespace week11_ans
         }
         public override void ShowInfo()
         {// 多型，這邊覆寫了原本再Token中的ShowInfo()函式
+         // ShowInfo在Enemy中被我改成，不再是確認屬型用的函式，而是類似遭遇敵人時，要先呼叫一次的函式。
             Console.Write(this.Art);
             this.status.ShowStatus();
             Console.WriteLine("{0} Appeared!\n{1}",this.name, Line);
