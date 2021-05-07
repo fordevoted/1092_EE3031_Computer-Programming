@@ -1,9 +1,15 @@
 using System;
-
+/* Author: TA of NTU 109-2 EE3031 
+ * Contact: r09941007@g.ntu.edu.tw
+ * Feel free for using or modifying it!
+ */
 namespace week11_ans
 {
     class Program
     {
+        /* 題外話：請各位同學作業二report.pdf的報告內容/格式要好好寫R，報告內容要有哪些可以參考課程大綱
+         * 作業一有幾位同學的作業也非常用心有趣，但是因為報告格式不太正確，或報告內容不夠豐富，就被扣了一部分分數，真的是很可惜。
+         */
         static void Main(string[] args)
         {
             Easy();
