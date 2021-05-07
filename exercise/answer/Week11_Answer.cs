@@ -41,6 +41,13 @@ namespace week11_ans
             // Because classes are reference types, someone's Hp becomes to 0 now.
             void BigWar(Token P1, Token P2)
             {// PekoMiko Daisensou
+                /* 是說關於RPG中，物件間的對戰，
+                 * 同學可以盡情發揮創意，
+                 * 利用添加不同的properties給物件，
+                 * 來自創各種遊戲的戰鬥系統。
+                 * 例如：Status若再加入int spd 代表腳色的速度能力值，
+                 * 那我們這邊BigWar函式，就可以根據物件的spd決定誰先攻。
+                 */
                 while(true)
                 {
                     P2.Defence(P1.Attack());
