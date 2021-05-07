@@ -24,7 +24,7 @@ namespace week11_ans
     {   // Token can be regarded as all character's  base(such as Player, NPC, enemy...)
         protected string art, name;
         // protected 代表，當Token被其他class繼承後，即使art, name不是被宣告成public，
-        // 但在其他class中，仍可直接用this.string，
+        // 但在其他class中，仍可直接用this.name this.art，
         // 使用範例可以參考最後的Enemy:Token ，同學可以試著把protected改成private，看看Enemy會顯示甚麼錯誤?
         public Status status;
         internal Random rnd;
