@@ -144,7 +144,7 @@ namespace week11_ans
             this.Line = Line;
         }
         public override void ShowInfo()
-        {// 多型，這邊覆寫了原本再Token中的ShowInfo()函式
+        {// 多型，這邊覆寫了原本Token中的ShowInfo()函式
          // ShowInfo在Enemy中被我改成，不再是確認屬型用的函式，而是類似遭遇敵人時，要先呼叫一次的函式。
             Console.Write(this.Art);
             this.status.ShowStatus();
