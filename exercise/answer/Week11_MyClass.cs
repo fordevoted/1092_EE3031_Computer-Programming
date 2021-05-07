@@ -1,4 +1,8 @@
 using System;
+/* Author: TA of NTU 109-2 EE3031 
+ * Contact: r09941007@g.ntu.edu.tw
+ * Feel free for using or modifying it!
+ */
 /* Assigned Readings: 
  * 1. auto-implemented-properties
  * https://docs.microsoft.com/zh-tw/dotnet/csharp/programming-guide/classes-and-structs/auto-implemented-properties
