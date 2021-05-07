@@ -11,22 +11,26 @@ namespace week11_ans
             Hard();
             Console.ReadLine();
         }
-        static void Easy() // Build a character with ascii art
+        static void Easy()
         {
             //Token peko = new Token(ArtLibrary.Pekora, "Usada Pekora");
-            // or you can use the LibraryDealer like:
-            LibraryDealer ld = new LibraryDealer(@"C:\Users\clay0\EE3031\week11_ans\AsciiArt");
+            // ---上面是用AsciiArt.cs的方法
+            // ---下面是用讀取txt的方法
+            LibraryDealer ld = new LibraryDealer(@"C:\Users\TA\EE3031\week11_ans\AsciiArt");
             Token peko = new Token(ld.Txt2AsciiString("Pekora.txt"), "Usada Pekora");
+            // ---
             peko.ShowInfo();
         }
         static void Medium()
         {
             //Token peko = new Token(ArtLibrary.Pekora, "Usada Pekora");
             //Token miko = new Token(ArtLibrary.Mikochi, "Sakura Miko");
-            // Or you can use the LibraryDealer like:
-            LibraryDealer ld = new LibraryDealer(@"C:\Users\clay0\EE3031\week11_ans\AsciiArt");
+            // ---上面是用AsciiArt.cs的方法
+            // ---下面是用讀取txt的方法
+            LibraryDealer ld = new LibraryDealer(@"C:\Users\TA\EE3031\week11_ans\AsciiArt");
             Token peko = new Token(ld.Txt2AsciiString("Pekora.txt"), "Usada Pekora");
             Token miko = new Token(ld.Txt2AsciiString("Mikochi.txt"), "Sakura Miko");
+            // ---
             Console.WriteLine("{0}'s status is", peko.Name);
             peko.status.ShowStatus();
             Console.WriteLine("--------------------");
@@ -36,7 +40,7 @@ namespace week11_ans
             BigWar(peko, miko);
             // Because classes are reference types, someone's Hp becomes to 0 now.
             void BigWar(Token P1, Token P2)
-            {
+            {// PekoMiko Daisensou
                 while(true)
                 {
                     P2.Defence(P1.Attack());
