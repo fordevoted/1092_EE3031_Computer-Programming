@@ -25,12 +25,12 @@ namespace MidtermReview4
             }
         }
         static void ScoreBoard (ref Prisoner a, ref Prisoner b, int round)
-        {                    // ^我後來發現這邊寫法有點多此一舉，class作為引數被讀入後，本來就是傳址，不是傳值。故不用ref
+        {                    // ^我後來發現這邊寫法有點多此一舉，物件作為引數被讀入後，本來就是傳址，不是傳值。故不用ref
             Console.WriteLine("Round {0, -4}: A {1, -9}, score: {2, -4} | B {3, -9}, score: {4, -4}",
                               round, a.LastChoice, a.score, b.LastChoice, b.score);
         }
         static void Game (ref Prisoner a, ref Prisoner b, int round)
-        {              // ^我後來發現這邊寫法有點多此一舉，class作為引數被讀入後，本來就是傳址，不是傳值。故不用ref
+        {              // ^我後來發現這邊寫法有點多此一舉，物件作為引數被讀入後，本來就是傳址，不是傳值。故不用ref
             switch (a.LastChoice)
             {
                 case (Decision.COOPERATE):
