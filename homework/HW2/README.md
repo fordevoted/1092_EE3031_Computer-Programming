@@ -1,5 +1,8 @@
+*1: 05/15 17:54 updated
 | Name | video link    | mail address    |
 | --------- | --------- | --------- |
+| 辛航希*1 | https://youtu.be/DXa620zXXwU 	| b07704059@ntu.edu.tw	|
+| 康柏賢*1 | https://drive.google.com/file/d/1-bvWLrM_RNGTaRMUpef8URbRELja2j8U/view?usp=sharing 	| b09201020@ntu.edu.tw	|
 | 丁啟恩	| https://youtu.be/M_IrE7TJvDs	| b08702039@ntu.edu.tw	|
 | 劉霈琪	| https://youtu.be/NEvlQDW-iYY	| b06701241@ntu.edu.tw	|
 | 周庭慧	| https://youtu.be/-nAaYMA27v8	| b09204038@ntu.edu.tw	|
@@ -34,3 +37,4 @@
 | 高泊天 | https://youtu.be/NB_QuFpTtvc	| b09209023@ntu.edu.tw	|
 | 黃品元 | https://youtu.be/hIEVboU-pJM  | b09401130@ntu.edu.tw	|
 | 黃珮瑜 | https://youtu.be/oUQT_m7qOY4 	| b09107053@ntu.edu.tw	|
+
