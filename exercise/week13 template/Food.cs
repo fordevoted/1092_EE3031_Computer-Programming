@@ -5,7 +5,7 @@
         private string name;
         private int price;
         protected int number;
-        protected bool alreadyApplyActivity;
+        protected bool alreadyApplyDiscount;
         public abstract void order(ref Food[] orderlist, ref int orderLIstPointer);
 
         public  string getName(){return name;}
@@ -19,9 +19,9 @@
         public int getNumber(){return number;}
 
         public void setNumber(int number){this.number = number;}
-        public bool getAlreadyApplyActivity(){return alreadyApplyActivity;}
+        public bool getAlreadyApplyDiscount(){return alreadyApplyDiscount;}
 
-        public void setAlreadyApplyActivity(bool alreadyApplyActivity){this.alreadyApplyActivity = alreadyApplyActivity;}
+        public void setAlreadyApplyDiscount(bool alreadyApplyDiscount){this.alreadyApplyDiscount = alreadyApplyDiscount;}
 
 
     }
