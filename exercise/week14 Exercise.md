@@ -19,7 +19,9 @@ To simplify the problem, we assume both of the inputs _**N**_ and _**B**_ are po
  |3.|16 DIV 16 = 1|16 MOD 16 = 0|02A|
  |4.|1 DIV 16 = 0|1 MOD 16 = 1|102A|
  
-2.  As the remainder may be greater than 10, we can use [ASCII code](https://zh.wikipedia.org/wiki/ASCII) to represent the number (10=A, 11=B, ..., etc.)
+2. As the remainder may be greater than 10, we can use [ASCII code](https://zh.wikipedia.org/wiki/ASCII) to represent the number (10=A, 11=B, ..., etc.).
+
+3. **No Plagiarism**. You are welcomed to discuss with any others and finish the exercise by yourself.   
 
 **Example 1:**
 
