@@ -10,7 +10,7 @@ To simplify the problem, we assume both of the inputs _**N**_ and _**B**_ are po
 
 ****Hint:****
 
-1. Assume _**N**_=4138, _**B**_=16, we can repeat the following steps until the quotient is equal to 0:
+1. Assume _**N**_=4138 and _**B**_=16, we can repeat the following steps until the quotient is equal to 0:
 
  |Step| Divide | Modulo  |Result 
  | :--------- | ---------: | ---------: | ---------: |
