@@ -31,7 +31,7 @@ To simplify the problem, we assume both of the inputs _**N**_ and _**B**_ are po
 
 **Example 3:**
 
-Check our github website [Week14_Program.exe](https://github.com/fordevoted/1092_EE3031_Computer-Programming/blob/main/exercise/Week14_Program.exe).
+Check our github website [week14_Program.exe](https://github.com/fordevoted/1092_EE3031_Computer-Programming/blob/main/exercise/week14_Program.exe).
 
 **Reference:**
 1.  [進位制-維基百科](https://zh.wikipedia.org/wiki/%E8%BF%9B%E4%BD%8D%E5%88%B6)
