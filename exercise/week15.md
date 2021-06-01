@@ -61,22 +61,20 @@ class Program
 }
 ```
 
+```
 - (A)
   Four wheels and an engine.
-
 - (B)
   A roof that opens up.
-
 - (C)
   Carries seven people.
-
 - (D)
   Four wheels and an engine.
   A roof that opens up.
-
 - (E)
   Four wheels and an engine.
   Carries seven people.
+```
 
 ## Medium & Hard
 
