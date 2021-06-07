@@ -76,22 +76,32 @@ MakeMusic.Wav(@"C:\Users\TA\workshop\week16\sample\MagicForest\", "tone.txt", "d
 Output music file must be .wav format. (out3.mp3)
 ```            
 # Hard
-## Question: Modulate given sheet
-1. [Natural](https://zh.wikipedia.org/wiki/%E8%BF%98%E5%8E%9F%E5%8F%B7)
-2. Increase [bpm](https://zh.wikipedia.org/wiki/%E9%80%9F%E5%BA%A6_(%E9%9F%B3%E6%A8%82))
+## Question: Modulate music sheet
+![note](https://imgur.com/O55EedJ.jpg) \
+Wiki - Musical note: \
+In music, a note is a symbol denoting a musical sound. In English usage a note is also the sound itself. \
+Notes can represent the ***pitch*** and ***duration*** of a sound in musical notation.
 
-#### Example1:
+In week16 samples, \
+Pitch data saved in tone.txt \
+Duration data saved in duration.txt \
+For this problem, you need to modulate the ***pitch*** and ***duration*** of the given music sheet.
+
+Two examples to modulate a music sheet are as follow.
+### Modulate the pitch:
 1. Read .../sample/MagicForest/tone.txt
 2. Remove all '#' and 'b' in it, write it into new_tone.txt.
-3. :point_down: 
+3. :point_down: Use Wav(...) recreate newMagicforest.wav.
 ```C#
 MakeMusic.Wav(@"C:\Users\TA\workshop\week16\sample\MagicForest\", "new_tone.txt", "duration.txt", "newMagicforest.wav", 1);
 ```
 
-#### Example2:
+### Modulate the pitch:
+Actually, [BPM](https://en.wikipedia.org/wiki/BPM_(Beats_per_Minute)) of [Wily's Castle](https://musescore.com/user/8853446/scores/4256311) is 180, but the BPM of given duration.txt is only 120. \
+We need to divide all duration by 1.5, revise Wily's Castle BPM to 180.
 1. Read .../sample/Wily'sCastle/duration.txt
-2. Multiply all duration by 0.7, write it into new_duration.txt.
-3. :point_down:
+2. Divide all duration by 1.5, write it into new_duration.txt.
+3. :point_down: Use Wav(...) recreate newWily'sCastle.wav.
 ```C#
 MakeMusic.Wav(@"C:\Users\TA\workshop\week16\sample\Wily'sCastle\", "tone.txt", "new_duration.txt", "newWily'sCastle.wav", 1);
 ```
