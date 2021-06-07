@@ -25,12 +25,12 @@ Example usage of Wav function
 ```C#
 static void Main(string[] args)
 {
-    MakeMusic.Wav(@"C:\Users\TA\workshop\week16\Sample\Unity\", "tone.txt", "duration.txt", "Unity.wav", 5);
-    MakeMusic.Wav(@"C:\Users\TA\workshop\week16\Sample\NightOfFire\", "tone.txt", "duration.txt", "NightOfFire.wav", 4);
-    MakeMusic.Wav(@"C:\Users\TA\workshop\week16\Sample\MagicForest\", "tone.txt", "duration.txt", "MagicForest.wav", 3);
-    MakeMusic.Wav(@"C:\Users\TA\workshop\week16\Sample\Megalovania\", "tone.txt", "duration.txt", "Megalovania.wav", 2);
-    MakeMusic.Wav(@"C:\Users\TA\workshop\week16\Sample\Wily'sCastle\", "tone.txt", "duration.txt", "Wily'sCastle.wav", 1);
-    MakeMusic.Wav(@"C:\Users\TA\workshop\week16\Sample\Dejavu\", "tone.txt", "duration.txt", "Dejavu.wav");
+    MakeMusic.Wav(@"C:\Users\TA\workshop\week16\sample\Unity\", "tone.txt", "duration.txt", "Unity.wav", 5);
+    MakeMusic.Wav(@"C:\Users\TA\workshop\week16\sample\NightOfFire\", "tone.txt", "duration.txt", "NightOfFire.wav", 4);
+    MakeMusic.Wav(@"C:\Users\TA\workshop\week16\sample\MagicForest\", "tone.txt", "duration.txt", "MagicForest.wav", 3);
+    MakeMusic.Wav(@"C:\Users\TA\workshop\week16\sample\Megalovania\", "tone.txt", "duration.txt", "Megalovania.wav", 2);
+    MakeMusic.Wav(@"C:\Users\TA\workshop\week16\sample\Wily'sCastle\", "tone.txt", "duration.txt", "Wily'sCastle.wav", 1);
+    MakeMusic.Wav(@"C:\Users\TA\workshop\week16\sample\Dejavu\", "tone.txt", "duration.txt", "Dejavu.wav");
 }
 ```
 
@@ -46,7 +46,7 @@ Add try-catch and throw to function - Wav(), to prevent the situations above.
 #### Example1:
 ```C#
 // Case: File Not found
-MakeMusic.Wav(@"C:\Users\TA\workshop\week16\Sample\Dejavu\", "TONE.txt", "DURATION.txt", "out0.wav");
+MakeMusic.Wav(@"C:\Users\TA\workshop\week16\sample\Dejavu\", "TONE.txt", "DURATION.txt", "out0.wav");
 ```
 ```
 File Not found. (TONE.txt, DURATION.txt)
@@ -54,15 +54,15 @@ File Not found. (TONE.txt, DURATION.txt)
 #### Example2:
 ```C#
 // Case: Directory is not exist.
-MakeMusic.Wav(@"C:\Users\TA\workshop\week9999\Sample\Wily'sCastle\", "tone.txt", "duration.txt", "out1.wav", 1);
+MakeMusic.Wav(@"C:\Users\TA\workshop\week9999\sample\Wily'sCastle\", "tone.txt", "duration.txt", "out1.wav", 1);
 ```
 ```
-Directory is not exist. (C:\Users\TA\workshop\week9999\Sample\Wily'sCastle\)
+Directory is not exist. (C:\Users\TA\workshop\week9999\sample\Wily'sCastle\)
 ```         
 #### Example3:
 ```C#
 // Case: Duration and tone are not .txt format.
-MakeMusic.Wav(@"C:\Users\TA\workshop\week16\Sample\Megalovania\", "tone.dat", "duration.jpg", "out2.wav", 2);
+MakeMusic.Wav(@"C:\Users\TA\workshop\week16\sample\Megalovania\", "tone.dat", "duration.jpg", "out2.wav", 2);
 ```
 ```
 Input files must be .txt files. (tone.dat, duration.jpg)
@@ -70,7 +70,7 @@ Input files must be .txt files. (tone.dat, duration.jpg)
 #### Example4:
 ```C#
 // Case: Output file is not .wav format.
-MakeMusic.Wav(@"C:\Users\TA\workshop\week16\Sample\MagicForest\", "tone.txt", "duration.txt", "out3.mp3", 3);
+MakeMusic.Wav(@"C:\Users\TA\workshop\week16\sample\MagicForest\", "tone.txt", "duration.txt", "out3.mp3", 3);
 ```
 ```
 Output music file must be .wav format. (out3.mp3)
@@ -85,7 +85,7 @@ Output music file must be .wav format. (out3.mp3)
 2. Remove all '#' and 'b' in it, write it into new_tone.txt.
 3. :point_down: 
 ```C#
-MakeMusic.Wav(@"C:\Users\TA\workshop\week18\Sample\MagicForest\", "new_tone.txt", "duration.txt", "newMagicforest.wav", 1);
+MakeMusic.Wav(@"C:\Users\TA\workshop\week18\sample\MagicForest\", "new_tone.txt", "duration.txt", "newMagicforest.wav", 1);
 ```
 
 #### Example2:
@@ -93,7 +93,7 @@ MakeMusic.Wav(@"C:\Users\TA\workshop\week18\Sample\MagicForest\", "new_tone.txt"
 2. Multiply all duration by 0.7, write it into new_duration.txt.
 3. :point_down:
 ```C#
-MakeMusic.Wav(@"C:\Users\TA\workshop\week18\Sample\Wily'sCastle\", "tone.txt", "new_duration.txt", "newWily'sCastle.wav", 1);
+MakeMusic.Wav(@"C:\Users\TA\workshop\week18\sample\Wily'sCastle\", "tone.txt", "new_duration.txt", "newWily'sCastle.wav", 1);
 ```
 
 #### NOTE:
