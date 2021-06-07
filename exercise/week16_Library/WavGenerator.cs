@@ -123,7 +123,7 @@ namespace week16
             this._numOfData = tones.Length;
             Dictionary<string, int> tone2Freq = new Dictionary<string, int>
             {
-                {"D''b", 1108}, {"D''", 1174}, 
+                {"D''b", 1108}, {"D''", 1174}, {"'B#", 262},
                 {"'Bb", 233}, {"'B", 247}, {"Fb", 330}, {"C'b", 988}, {"C''", 1047}, {"F'b", 660}, 
                 {"0", 0}, {"C", 262}, {"C#", 277}, {"Db", 277}, {"D", 294}, {"D#", 311},
                 {"Eb", 311}, {"E", 330}, {"F", 349}, {"F#", 370}, {"Gb", 370}, {"G", 392},
