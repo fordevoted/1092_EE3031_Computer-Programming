@@ -96,7 +96,7 @@ Two examples to modulate a music sheet are as follow.
 MakeMusic.Wav(@"C:\Users\TA\workshop\week16\sample\MagicForest\", "new_tone.txt", "duration.txt", "newMagicforest.wav", 1);
 ```
 
-### Modulate the pitch:
+### Modulate the duration:
 Actually, [BPM](https://en.wikipedia.org/wiki/BPM_(Beats_per_Minute)) of [Wily's Castle](https://musescore.com/user/8853446/scores/4256311) is 180, but the BPM of given duration.txt is only 120. \
 We need to divide all duration by 1.5, revise Wily's Castle BPM to 180.
 1. Read .../sample/Wily'sCastle/duration.txt
