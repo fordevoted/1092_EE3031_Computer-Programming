@@ -85,7 +85,7 @@ Output music file must be .wav format. (out3.mp3)
 2. Remove all '#' and 'b' in it, write it into new_tone.txt.
 3. :point_down: 
 ```C#
-MakeMusic.Wav(@"C:\Users\TA\workshop\week18\sample\MagicForest\", "new_tone.txt", "duration.txt", "newMagicforest.wav", 1);
+MakeMusic.Wav(@"C:\Users\TA\workshop\week16\sample\MagicForest\", "new_tone.txt", "duration.txt", "newMagicforest.wav", 1);
 ```
 
 #### Example2:
@@ -93,7 +93,7 @@ MakeMusic.Wav(@"C:\Users\TA\workshop\week18\sample\MagicForest\", "new_tone.txt"
 2. Multiply all duration by 0.7, write it into new_duration.txt.
 3. :point_down:
 ```C#
-MakeMusic.Wav(@"C:\Users\TA\workshop\week18\sample\Wily'sCastle\", "tone.txt", "new_duration.txt", "newWily'sCastle.wav", 1);
+MakeMusic.Wav(@"C:\Users\TA\workshop\week16\sample\Wily'sCastle\", "tone.txt", "new_duration.txt", "newWily'sCastle.wav", 1);
 ```
 
 #### NOTE:
