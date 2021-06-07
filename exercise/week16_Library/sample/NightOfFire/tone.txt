@@ -1,0 +1,21 @@
+E 0 0 
+Gb 0 Ab 0 
+0 Gb 0 Gb 0 Ab Gb Fb 
+Gb 0 Gb 0 Gb 0 
+E 0 0 
+Gb 0 Ab 0 
+0 Gb 0 Gb 0 Ab Gb F 
+Gb 0 Gb 0 Gb 0 Ab Gb F 
+E 0 0 
+Gb 0 Ab 0 
+E Ab Gb F E 'B F Gb F Gb Gb F E Gb 
+D'b Gb D D'b F D D'b Fb D D'b E D D'b D D C 
+Eb 0 0 
+Gb 0 Ab 0 
+E Ab Gb F E 'B F Gb F Gb Gb F E Gb 
+D'b Gb D D'b F D D'b Fb D D'b E D D'b D D C 
+C'b 0 Bb 0 Ab Gb 
+C'' G' C'b C'' F' C'b C'' E'b C'b C'' F'b C'b C'' D'b C'b C'' 
+D' D' A' Bb G' F' E' Bb C' E'b G' F' G' F' D' C' 
+D''b G' D'b D''b F' D'b D''b E' D'b D''b E'b D'b D''b D'b D'b 
+C'b 0 B'b 0 Ab Gb

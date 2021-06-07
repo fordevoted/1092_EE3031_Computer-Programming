@@ -1,0 +1,19 @@
+0 0 C D E 
+E E E D C 'B 'B 
+'B 'B C G F E D 
+E E E F E F F 
+F G G 0 C C D 
+E E E D C 'B 'B 
+'B C C G F E D 
+E E E F E F F 
+F G G F 0 0 G 
+G 0 C D E 
+E E E D C 'B 'B 
+'B C C G F E D 
+E E E F E F F 
+F G G 0 C C D 
+E E E D C 'B 'B 
+'B C C G F E D 
+E E E F E F F 
+F G G F 0 0 G 
+G 0
