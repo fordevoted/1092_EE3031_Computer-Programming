@@ -89,21 +89,22 @@ For this problem, you need to modulate the ***pitch*** and ***duration*** of the
 
 Two examples to modulate a music sheet are as follow.
 ### Modulate the pitch:
-1. Read .../sample/MagicForest/tone.txt
-2. Remove all '#' and 'b' in it, write it into new_tone.txt.
-3. :point_down: Use Wav(...) recreate newMagicforest.wav.
+1. Read .../sample/Megalovania/tone.txt
+2. Let all pitch shift up [half step](https://en.wikipedia.org/wiki/Chromatic_scale), write it into newTone.txt. \
+shift up half step means: D -> D#, Ab -> A, and so on.
+3. :point_down: Use Wav(...) recreate newMegalovania.wav.
 ```C#
-MakeMusic.Wav(@"C:\Users\TA\workshop\week16\sample\MagicForest\", "new_tone.txt", "duration.txt", "newMagicforest.wav", 1);
+MakeMusic.Wav(@"C:\Users\TA\workshop\week16\sample\Megalovania\", "newTone.txt", "duration.txt", "newMegalovania.wav", 1);
 ```
 
 ### Modulate the duration:
 Actually, [BPM](https://en.wikipedia.org/wiki/Tempo) of [Wily's Castle](https://musescore.com/user/8853446/scores/4256311) is 180, but the BPM of given duration.txt is only 120. \
 We need to divide all duration by 1.5, revise Wily's Castle BPM to 180.
 1. Read .../sample/Wily'sCastle/duration.txt
-2. Divide all duration by 1.5, write it into new_duration.txt.
+2. Divide all duration by 1.5, write it into newDuration.txt.
 3. :point_down: Use Wav(...) recreate newWily'sCastle.wav.
 ```C#
-MakeMusic.Wav(@"C:\Users\TA\workshop\week16\sample\Wily'sCastle\", "tone.txt", "new_duration.txt", "newWily'sCastle.wav", 1);
+MakeMusic.Wav(@"C:\Users\TA\workshop\week16\sample\Wily'sCastle\", "tone.txt", "newDuration.txt", "newWily'sCastle.wav", 1);
 ```
 
 #### NOTE:
