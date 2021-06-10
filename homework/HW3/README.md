@@ -7,7 +7,7 @@
 5. 請避免使用攻擊性的詞語，回饋文字會以不具名方式傳給被回饋者
 6. 確實完成的同學可額外獲得總成績1分的bonus
 
-表單連結: https://forms.gle/AJRDVBjG8Lxvdit7A 開放填答期限至6/11 18:00
+表單連結: https://forms.gle/AJRDVBjG8Lxvdit7A 開放填答期限至今日下課前(6/11 18:00)
 
 | Index	| Name	| Video Link |  Watch List	|
 | --------- | --------- | --------- |  --------- |
