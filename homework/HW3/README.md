@@ -30,7 +30,7 @@
 |15 |	白敘廷 | https://youtu.be/khywLloRyOA	| 7, 18, 22, 26, 30	|
 |16 |	范芷瑄	| https://youtu.be/ah_ov-YX-jU	| 0, 3, 14, 24, 31	|
 |17 |	董俊祺	| https://youtu.be/1UDiflVICfM  	| 6, 18, 22, 23, 33	|
-|18 |	袁文謙	| 待補	| 3, 5, 15, 20, 22	|
+|18 |	袁文謙	| https://youtu.be/5BexxBfWF7w	| 3, 5, 15, 20, 22	|
 |19 |	許妤萱	| https://youtu.be/4FoHPEvF0DA	| 0, 4, 6, 9, 23	|
 |20 |	許安聖	| https://youtu.be/cnimv4jS-ME	| 1, 4, 8, 9, 31	|
 |21 |	許瀚中	| https://youtu.be/U2ctzD6g2VY	| 2, 3, 14, 23, 28	|
