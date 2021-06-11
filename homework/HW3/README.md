@@ -34,7 +34,7 @@
 |19 |	許妤萱	| https://youtu.be/4FoHPEvF0DA	| 0, 4, 6, 9, 23	|
 |20 |	許安聖	| https://youtu.be/cnimv4jS-ME	| 1, 4, 8, 9, 31	|
 |21 |	許瀚中	| https://youtu.be/U2ctzD6g2VY	| 2, 3, 14, 23, 28	|
-|22 |	辛航希	| 待補	| 10, 13, 18, 21, 24	|
+|22 |	辛航希	| https://youtu.be/OqoLyHjfhNo	| 10, 13, 18, 21, 24	|
 |23 |	鄭國琛 | https://youtu.be/t9x0m2TikEM	| 10, 13, 14, 31, 33	|
 |24 |	陳冠綸	| https://youtu.be/tTZ6pD4DAEs	| 2, 5, 8, 10, 21	|
 |25 |	陳怡伃	| https://youtu.be/r6mXJYOSzcI 	| 10, 20, 22, 27, 28	|
