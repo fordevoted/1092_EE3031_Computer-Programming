@@ -24,7 +24,7 @@
 |9	| 林瑞鴻	| https://youtu.be/vMM8bWgDKAE	| 7, 11, 25, 26, 32	|
 |10 |	柯兆陽	| https://youtu.be/My7eefZ2e0Q	| 15, 16, 26, 30, 33	|
 |11 |	江柏勳	| https://youtu.be/qRUui9N7LkA	| 1, 2, 3, 7, 10	|
-|12 |	洪鼎睿	| https://youtu.be/88auTxxyeow	| 2, 9, 15, 20, 22, 32	|
+|12 |	洪鼎睿	| https://youtu.be/88auTxxyeow	| 9, 15, 20, 22, 32	|
 |13 |	王  愷 | https://youtu.be/6RS_-va947E	| 4, 6, 11, 23, 25	|
 |14 |	王松億	| https://youtu.be/QIjayVxHodw	| 0, 2, 3, 19, 31	|
 |15 |	白敘廷 | https://youtu.be/khywLloRyOA	| 7, 18, 22, 26, 30	|
