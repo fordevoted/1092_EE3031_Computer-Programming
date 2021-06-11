@@ -38,7 +38,7 @@
 |23 |	鄭國琛 | https://youtu.be/t9x0m2TikEM	| 10, 13, 14, 31, 33	|
 |24 |	陳冠綸	| https://youtu.be/tTZ6pD4DAEs	| 2, 5, 8, 10, 21	|
 |25 |	陳怡伃	| https://youtu.be/r6mXJYOSzcI 	| 10, 20, 22, 27, 28	|
-|26 |	陳政逸	| https://youtu.be/WZnCUWybND0	| 13, 16, 19, 20, 24	|
+|26 |	陳政逸	| https://youtu.be/JQlwAp3K1yE	| 13, 16, 19, 20, 24	|
 |27 |	陳泊均 | https://youtu.be/5378Hi6-7o8	| 1, 11, 13, 16, 17 |
 |28 |	高泊天	| https://youtu.be/mBWYhpErodM	| 12, 13, 17, 19, 27	|
 |29 |	黃品元	| https://youtu.be/XaLsd7SJOCg	| 11, 12, 16, 19, 33	|
