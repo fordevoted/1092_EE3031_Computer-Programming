@@ -46,10 +46,10 @@ Add try-catch and throw to function - Wav(), to prevent the situations above.
 #### Example1:
 ```C#
 // Case: File Not found
-MakeMusic.Wav(@"C:\Users\TA\workshop\week16\sample\Dejavu\", "TONE.txt", "DURATION.txt", "out0.wav");
+MakeMusic.Wav(@"C:\Users\TA\workshop\week16\sample\Dejavu\", "GodIsAGirl.txt", "DamDadiDo.txt", "out0.wav");
 ```
 ```
-File Not found. (TONE.txt, DURATION.txt)
+File Not found. (GodIsAGirl.txt, DamDadiDo.txt)
 ```
 #### Example2:
 ```C#
