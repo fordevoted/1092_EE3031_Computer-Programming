@@ -1,0 +1,24 @@
+0 E E E E E E C 0 G 
+E E E E C 0 G F G 
+E E E E E E C 0 G 
+0 F 0 E 0 F 0 
+0 F F F F F F D 0 G 
+0 F 0 E 0 D 0 C 
+C C G B A# 0 C 
+C C G B A# D'# E' 
+0 E E E E E E C 0 G 
+E E E E C 0 G F G 
+E E E E E E C 0 G 
+0 F 0 E 0 F 0 
+0 F F F F F F D 0 G 
+0 F 0 E 0 D 0 C 
+C C G B A# 0 C 
+C C G B A# B C'# 
+C'# C'# B E' 
+E' C'# B C'# 0 
+B B C'# 0 
+G A G E E E B 
+C'# C'# B E' 
+E' C'# B C'# 
+B B G B C' 
+C'# C' C'# D'# G'#
