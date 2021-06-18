@@ -48,10 +48,6 @@ namespace Review4
                 asset += holding[(int) holdingEnum.Key].GetValue();
             }
             Console.WriteLine("總資產: {0,-10:C2}", asset);
-            /*
-             * Console.WriteLine(myEnumerator.Key + " --> "
-                              + myEnumerator.Value);
-             */
         }
     }
 }
